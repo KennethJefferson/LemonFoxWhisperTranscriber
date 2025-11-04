@@ -103,32 +103,41 @@ Error handling includes both HTTP status codes and JSON error parsing fallback.
 
 The application automatically handles files exceeding the 100MB API limit through an intelligent splitting and merging workflow:
 
-### Automatic Detection and Splitting
+### Pre-Processing Phase (Before Workers Start)
 
-When a worker processes a file >100MB:
+During job creation, the application checks file sizes and splits large files:
 1. **File Size Check**: `getFileSize()` detects files exceeding `maxFileSizeBytes` (100MB)
 2. **Audio Splitting**: `splitAudioFile()` uses ffmpeg to split the audio exactly in half by duration
    - Chunk 1: `[basename]-01.mp3` (first half)
    - Chunk 2: `[basename]-02.mp3` (second half)
    - Uses `ffmpeg -c copy` for fast stream copying (no re-encoding)
+   - Splitting happens in the main thread BEFORE workers start processing
 3. **Size Validation**: Verifies chunks are <100MB (files >200MB will fail with clear error)
+4. **Job Creation**: Creates two chunk jobs (one for each chunk) instead of a single file job
 
-### Transcription and Merging
+### Worker Processing
 
-4. **Sequential Transcription**: Both chunks are transcribed using the LemonFox API
-5. **SRT Timestamp Adjustment**:
+5. **Parallel Transcription**: Workers pick up chunk jobs from the queue and transcribe them normally
+6. **Chunk Results**: Workers return SRT content without saving (for chunks only)
+7. **Result Tracking**: Main thread tracks chunk results using `ChunkGroup` structures
+
+### Post-Processing and Merging
+
+8. **Result Collection**: After all workers complete, chunk results are collected
+9. **SRT Timestamp Adjustment**:
    - `parseSRTTimestamp()` and `formatSRTTimestamp()` handle SRT time format (`HH:MM:SS,mmm`)
    - `adjustSRTTimestamps()` adds the first chunk's duration offset to all timestamps in chunk 2
    - Example: If chunk 1 is 330.5 seconds, chunk 2's timestamps are shifted by +00:05:30,500
-6. **Index Renumbering**: `mergeSRTs()` renumbers subtitle indices to be sequential across both chunks
-7. **Cleanup**: Temporary chunk files (`*-01.mp3`, `*-02.mp3`) are automatically deleted after successful merge
+10. **Index Renumbering**: `mergeSRTs()` renumbers subtitle indices to be sequential across both chunks
+11. **Save Merged SRT**: Final merged SRT is saved to disk
+12. **Cleanup**: Temporary chunk files (`*-01.mp3`, `*-02.mp3`) are automatically deleted after merging
 
 ### Key Functions
 
-- `processLargeFile()` (main.go:567): Orchestrates the entire split-transcribe-merge workflow
-- `getAudioDuration()` (main.go:412): Uses ffprobe to detect audio duration in seconds
-- `splitAudioFile()` (main.go:430): Creates two equal-duration chunks using ffmpeg
-- `mergeSRTs()` (main.go:525): Combines SRT files with timestamp and index adjustment
+- `getAudioDuration()`: Uses ffprobe to detect audio duration in seconds
+- `splitAudioFile()`: Creates two equal-duration chunks using ffmpeg (called during pre-processing)
+- `mergeSRTs()`: Combines SRT files with timestamp and index adjustment (called during result collection)
+- Main loop (lines 144-227): Pre-processes files, splits large ones, creates chunk jobs
 
 ### Dependencies
 

@@ -30,13 +30,24 @@ const (
 
 // Job represents a transcription job
 type Job struct {
-	FilePath         string
-	Index            int
-	IsChunk          bool    // True if this job is for a file chunk
-	ChunkNumber      int     // 1-based chunk number (1 or 2)
-	TotalChunks      int     // Total number of chunks (always 2 for split files)
-	OriginalFilePath string  // Path to original file (for chunk jobs)
-	ChunkDuration    float64 // Duration of first chunk in seconds (for timestamp offset)
+	FilePath    string
+	Index       int
+	IsChunk     bool   // True if this job is for a file chunk
+	ChunkNumber int    // 1-based chunk number (1 or 2)
+	OriginalFile string // Path to original file (for chunk jobs)
+}
+
+// ChunkGroup tracks chunks that need to be merged
+type ChunkGroup struct {
+	OriginalFile   string
+	Chunk1Path     string
+	Chunk2Path     string
+	Chunk1Duration float64
+	Chunk1SRT      string
+	Chunk2SRT      string
+	Chunk1Done     bool
+	Chunk2Done     bool
+	mu             sync.Mutex
 }
 
 // Result represents the outcome of a transcription job
@@ -129,11 +140,97 @@ func main() {
 	}
 
 	fmt.Printf("\n%d file(s) need transcription\n", stats.Total)
-	fmt.Printf("Starting %d worker(s)\n\n", workers)
+
+	// Pre-process: split large files and create jobs
+	fmt.Println("Checking file sizes and splitting large files...")
+	var jobList []Job
+	chunkGroups := make(map[string]*ChunkGroup) // Map chunk file path to its group
+	jobIndex := 0
+
+	for _, filePath := range filesToProcess {
+		fileSize, err := getFileSize(filePath)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[ERROR] Failed to check size of %s: %v (skipping)\n", filepath.Base(filePath), err)
+			atomic.AddInt32(&stats.Failed, 1)
+			stats.Total--
+			continue
+		}
+
+		if fileSize > maxFileSizeBytes {
+			// File exceeds 100MB - split it now
+			fmt.Printf("[SPLIT] %s (%.1f MB) - splitting into chunks...\n", filepath.Base(filePath), float64(fileSize)/(1024*1024))
+
+			chunk1Path, chunk2Path, chunk1Duration, err := splitAudioFile(filePath)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "[ERROR] Failed to split %s: %v (skipping)\n", filepath.Base(filePath), err)
+				atomic.AddInt32(&stats.Failed, 1)
+				stats.Total--
+				continue
+			}
+
+			// Validate chunk sizes
+			chunk1Size, _ := getFileSize(chunk1Path)
+			chunk2Size, _ := getFileSize(chunk2Path)
+			if chunk1Size > maxFileSizeBytes || chunk2Size > maxFileSizeBytes {
+				fmt.Fprintf(os.Stderr, "[ERROR] %s: chunks still exceed 100MB (file >200MB, skipping)\n", filepath.Base(filePath))
+				os.Remove(chunk1Path)
+				os.Remove(chunk2Path)
+				atomic.AddInt32(&stats.Failed, 1)
+				stats.Total--
+				continue
+			}
+
+			// Create chunk group for tracking
+			group := &ChunkGroup{
+				OriginalFile:   filePath,
+				Chunk1Path:     chunk1Path,
+				Chunk2Path:     chunk2Path,
+				Chunk1Duration: chunk1Duration,
+			}
+			chunkGroups[chunk1Path] = group
+			chunkGroups[chunk2Path] = group
+
+			// Create jobs for both chunks
+			jobIndex++
+			jobList = append(jobList, Job{
+				FilePath:     chunk1Path,
+				Index:        jobIndex,
+				IsChunk:      true,
+				ChunkNumber:  1,
+				OriginalFile: filePath,
+			})
+
+			jobIndex++
+			jobList = append(jobList, Job{
+				FilePath:     chunk2Path,
+				Index:        jobIndex,
+				IsChunk:      true,
+				ChunkNumber:  2,
+				OriginalFile: filePath,
+			})
+
+			fmt.Printf("[SPLIT] Created chunks: %s, %s\n", filepath.Base(chunk1Path), filepath.Base(chunk2Path))
+		} else {
+			// Normal file - create single job
+			jobIndex++
+			jobList = append(jobList, Job{
+				FilePath: filePath,
+				Index:    jobIndex,
+				IsChunk:  false,
+			})
+		}
+	}
+
+	if len(jobList) == 0 {
+		fmt.Println("\nNo files to process after pre-processing.")
+		os.Exit(0)
+	}
+
+	fmt.Printf("Starting %d worker(s) to process %d job(s)\n\n", workers, len(jobList))
 
 	// Create job and result channels
-	jobs := make(chan Job, stats.Total)
-	results := make(chan Result, stats.Total)
+	jobs := make(chan Job, len(jobList))
+	results := make(chan Result, len(jobList))
 
 	// Start worker pool
 	var wg sync.WaitGroup
@@ -143,11 +240,8 @@ func main() {
 	}
 
 	// Send jobs to workers
-	for i, filePath := range filesToProcess {
-		jobs <- Job{
-			FilePath: filePath,
-			Index:    i + 1,
-		}
+	for _, job := range jobList {
+		jobs <- job
 	}
 	close(jobs)
 
@@ -171,12 +265,72 @@ func main() {
 	close(results)
 	done <- true
 
-	// Collect results
+	// Collect results and merge chunks
 	for result := range results {
-		if result.Success {
-			atomic.AddInt32(&stats.Success, 1)
+		if result.IsChunk {
+			// Handle chunk result
+			group := chunkGroups[result.FilePath]
+			if group == nil {
+				fmt.Fprintf(os.Stderr, "[ERROR] Chunk result for unknown file: %s\n", result.FilePath)
+				continue
+			}
+
+			group.mu.Lock()
+			if result.ChunkNumber == 1 {
+				group.Chunk1Done = true
+				if result.Success {
+					group.Chunk1SRT = result.SRTContent
+				}
+			} else if result.ChunkNumber == 2 {
+				group.Chunk2Done = true
+				if result.Success {
+					group.Chunk2SRT = result.SRTContent
+				}
+			}
+
+			// Check if both chunks are complete
+			bothDone := group.Chunk1Done && group.Chunk2Done
+			bothSuccess := group.Chunk1SRT != "" && group.Chunk2SRT != ""
+			group.mu.Unlock()
+
+			if bothDone {
+				// Both chunks processed - merge or fail
+				if bothSuccess {
+					// Merge SRTs
+					fmt.Printf("[MERGE] Combining chunks for: %s\n", filepath.Base(group.OriginalFile))
+					mergedSRT, err := mergeSRTs(group.Chunk1SRT, group.Chunk2SRT, group.Chunk1Duration)
+					if err != nil {
+						fmt.Fprintf(os.Stderr, "[ERROR] Failed to merge SRT for %s: %v\n", filepath.Base(group.OriginalFile), err)
+						atomic.AddInt32(&stats.Failed, 1)
+					} else {
+						// Save merged SRT
+						srtPath := strings.TrimSuffix(group.OriginalFile, filepath.Ext(group.OriginalFile)) + ".srt"
+						err = saveSRT(srtPath, mergedSRT)
+						if err != nil {
+							fmt.Fprintf(os.Stderr, "[ERROR] Failed to save merged SRT for %s: %v\n", filepath.Base(group.OriginalFile), err)
+							atomic.AddInt32(&stats.Failed, 1)
+						} else {
+							fmt.Printf("[SUCCESS] Merged: %s -> %s\n", filepath.Base(group.OriginalFile), filepath.Base(srtPath))
+							atomic.AddInt32(&stats.Success, 1)
+						}
+					}
+				} else {
+					// At least one chunk failed
+					fmt.Fprintf(os.Stderr, "[ERROR] One or more chunks failed for: %s\n", filepath.Base(group.OriginalFile))
+					atomic.AddInt32(&stats.Failed, 1)
+				}
+
+				// Cleanup chunk files
+				os.Remove(group.Chunk1Path)
+				os.Remove(group.Chunk2Path)
+			}
 		} else {
-			atomic.AddInt32(&stats.Failed, 1)
+			// Normal file result
+			if result.Success {
+				atomic.AddInt32(&stats.Success, 1)
+			} else {
+				atomic.AddInt32(&stats.Failed, 1)
+			}
 		}
 	}
 
@@ -298,52 +452,53 @@ func worker(id int, jobs <-chan Job, results chan<- Result, apiKey string, stats
 	defer wg.Done()
 
 	for job := range jobs {
-		// Check file size
-		fileSize, err := getFileSize(job.FilePath)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "[Worker %d] ERROR: Failed to check file size for %s: %v\n", id, filepath.Base(job.FilePath), err)
-			results <- Result{FilePath: job.FilePath, Success: false, Error: err}
-			atomic.AddInt32(&stats.Processed, 1)
-			continue
+		if job.IsChunk {
+			// Process chunk job
+			fmt.Printf("[Worker %d] Processing chunk %d/2: %s\n", id, job.ChunkNumber, filepath.Base(job.FilePath))
+		} else {
+			// Normal job
+			fmt.Printf("[Worker %d] Processing (%d): %s\n", id, job.Index, filepath.Base(job.FilePath))
 		}
 
-		// Route to appropriate handler based on file size
-		if fileSize > maxFileSizeBytes {
-			// Process large file with splitting
-			err := processLargeFile(job.FilePath, apiKey, id, job.Index, stats.Total)
-			if err != nil {
-				fmt.Fprintf(os.Stderr, "[Worker %d] ERROR: %v\n", id, err)
-				results <- Result{FilePath: job.FilePath, Success: false, Error: err}
-			} else {
-				results <- Result{FilePath: job.FilePath, Success: true}
+		srtContent, err := uploadToLemonFox(job.FilePath, apiKey)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[Worker %d] ERROR: Failed to transcribe %s: %v\n", id, filepath.Base(job.FilePath), err)
+			results <- Result{
+				FilePath:    job.FilePath,
+				Success:     false,
+				Error:       err,
+				IsChunk:     job.IsChunk,
+				ChunkNumber: job.ChunkNumber,
 			}
 			atomic.AddInt32(&stats.Processed, 1)
 			continue
 		}
 
-		// Normal processing for files <= 100MB
-		fmt.Printf("[Worker %d] Processing (%d/%d): %s\n", id, job.Index, stats.Total, filepath.Base(job.FilePath))
+		if job.IsChunk {
+			// Chunk job - don't save yet, return SRT content for merging
+			fmt.Printf("[Worker %d] SUCCESS (chunk %d/2): %s\n", id, job.ChunkNumber, filepath.Base(job.FilePath))
+			results <- Result{
+				FilePath:    job.FilePath,
+				Success:     true,
+				IsChunk:     true,
+				ChunkNumber: job.ChunkNumber,
+				SRTContent:  srtContent,
+			}
+		} else {
+			// Normal job - save SRT immediately
+			srtPath := strings.TrimSuffix(job.FilePath, filepath.Ext(job.FilePath)) + ".srt"
+			err = saveSRT(srtPath, srtContent)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "[Worker %d] ERROR: Failed to save SRT for %s: %v\n", id, filepath.Base(job.FilePath), err)
+				results <- Result{FilePath: job.FilePath, Success: false, Error: err}
+				atomic.AddInt32(&stats.Processed, 1)
+				continue
+			}
 
-		srtContent, err := uploadToLemonFox(job.FilePath, apiKey)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "[Worker %d] ERROR: Failed to transcribe %s: %v\n", id, filepath.Base(job.FilePath), err)
-			results <- Result{FilePath: job.FilePath, Success: false, Error: err}
-			atomic.AddInt32(&stats.Processed, 1)
-			continue
+			fmt.Printf("[Worker %d] SUCCESS: %s -> %s\n", id, filepath.Base(job.FilePath), filepath.Base(srtPath))
+			results <- Result{FilePath: job.FilePath, Success: true}
 		}
 
-		// Save SRT file
-		srtPath := strings.TrimSuffix(job.FilePath, filepath.Ext(job.FilePath)) + ".srt"
-		err = saveSRT(srtPath, srtContent)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "[Worker %d] ERROR: Failed to save SRT for %s: %v\n", id, filepath.Base(job.FilePath), err)
-			results <- Result{FilePath: job.FilePath, Success: false, Error: err}
-			atomic.AddInt32(&stats.Processed, 1)
-			continue
-		}
-
-		fmt.Printf("[Worker %d] SUCCESS: %s -> %s\n", id, filepath.Base(job.FilePath), filepath.Base(srtPath))
-		results <- Result{FilePath: job.FilePath, Success: true}
 		atomic.AddInt32(&stats.Processed, 1)
 	}
 }
@@ -585,63 +740,6 @@ func mergeSRTs(srt1Content, srt2Content string, offsetSeconds float64) (string, 
 	// Combine both SRTs
 	merged := strings.TrimSpace(srt1Content) + "\n\n" + strings.Join(renumberedLines, "\n")
 	return merged, nil
-}
-
-// processLargeFile handles splitting, transcribing, and merging for files over 100MB
-func processLargeFile(filePath string, apiKey string, workerID int, fileIndex int, totalFiles int) error {
-	fmt.Printf("[Worker %d] File exceeds 100MB, splitting into chunks: %s\n", workerID, filepath.Base(filePath))
-
-	// Split the file
-	chunk1Path, chunk2Path, chunk1Duration, err := splitAudioFile(filePath)
-	if err != nil {
-		return fmt.Errorf("failed to split file: %v", err)
-	}
-
-	// Ensure cleanup of chunk files
-	defer func() {
-		os.Remove(chunk1Path)
-		os.Remove(chunk2Path)
-	}()
-
-	// Check if chunks are still too large (>100MB each)
-	chunk1Size, _ := getFileSize(chunk1Path)
-	chunk2Size, _ := getFileSize(chunk2Path)
-	if chunk1Size > maxFileSizeBytes || chunk2Size > maxFileSizeBytes {
-		return fmt.Errorf("file too large: chunks exceed 100MB after splitting (original file >200MB)")
-	}
-
-	fmt.Printf("[Worker %d] Processing chunk 1/2 (%d/%d): %s\n", workerID, fileIndex, totalFiles, filepath.Base(chunk1Path))
-
-	// Transcribe chunk 1
-	srt1Content, err := uploadToLemonFox(chunk1Path, apiKey)
-	if err != nil {
-		return fmt.Errorf("chunk 1 transcription failed: %v", err)
-	}
-
-	fmt.Printf("[Worker %d] Processing chunk 2/2 (%d/%d): %s\n", workerID, fileIndex, totalFiles, filepath.Base(chunk2Path))
-
-	// Transcribe chunk 2
-	srt2Content, err := uploadToLemonFox(chunk2Path, apiKey)
-	if err != nil {
-		return fmt.Errorf("chunk 2 transcription failed: %v", err)
-	}
-
-	// Merge SRT files
-	fmt.Printf("[Worker %d] Merging chunks for: %s\n", workerID, filepath.Base(filePath))
-	mergedSRT, err := mergeSRTs(srt1Content, srt2Content, chunk1Duration)
-	if err != nil {
-		return fmt.Errorf("failed to merge SRT files: %v", err)
-	}
-
-	// Save merged SRT
-	srtPath := strings.TrimSuffix(filePath, filepath.Ext(filePath)) + ".srt"
-	err = saveSRT(srtPath, mergedSRT)
-	if err != nil {
-		return fmt.Errorf("failed to save merged SRT: %v", err)
-	}
-
-	fmt.Printf("[Worker %d] SUCCESS (merged): %s -> %s\n", workerID, filepath.Base(filePath), filepath.Base(srtPath))
-	return nil
 }
 
 // printProgress prints the current processing progress
