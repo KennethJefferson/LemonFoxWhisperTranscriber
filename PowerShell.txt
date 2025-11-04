@@ -1,0 +1,1454 @@
+ Tony Baloney  Aaliyah  C:\..\LemonFoxWhisperTranscriber    .\lemonfox-transcriber.exe "K:\__Web\__JAVA\__DevOps" 10
+LemonFox Audio Transcriber
+==========================
+
+Scanning directory: K:\__Web\__JAVA\__DevOps
+Found 348 MP3 file(s)
+
+348 file(s) need transcription
+Starting 10 worker(s)
+
+[Worker 1] Processing (1/348): 104 - Cloudwatch Service.mp3
+[Worker 6] Processing (2/348): 105 - Simple Notification Services.mp3
+[Worker 2] Processing (3/348): 106 - Create Topic and Subscription.mp3
+[Worker 3] Processing (4/348): 108 - Create Cloudwatch Alarm.mp3
+[Worker 4] Processing (5/348): 109 - Test.mp3
+[Worker 5] Processing (6/348): 114 - Deploy the Coupon Service.mp3
+[Worker 8] Processing (7/348): 125 - Launch MySql Container.mp3
+[Worker 7] Processing (8/348): 127 - Use Volumes.mp3
+[Worker 9] Processing (9/348): 128 - Use Bind Mounts.mp3
+[Worker 10] Processing (10/348): 129 - Docker networking in action.mp3
+
+[PROGRESS] 0/348 processed | Success: 0 | Failed: 0 | Elapsed: 2s
+
+
+[PROGRESS] 0/348 processed | Success: 0 | Failed: 0 | Elapsed: 4s
+
+
+[PROGRESS] 0/348 processed | Success: 0 | Failed: 0 | Elapsed: 6s
+
+[Worker 1] SUCCESS: 104 - Cloudwatch Service.mp3 -> 104 - Cloudwatch Service.srt
+[Worker 1] Processing (11/348): 130 - Change a containers network.mp3
+
+[PROGRESS] 1/348 processed | Success: 0 | Failed: 0 | Elapsed: 8s
+
+
+[PROGRESS] 1/348 processed | Success: 0 | Failed: 0 | Elapsed: 10s
+
+[Worker 6] SUCCESS: 105 - Simple Notification Services.mp3 -> 105 - Simple Notification Services.srt
+[Worker 6] Processing (12/348): 131 - Windows Install Docker.mp3
+[Worker 3] SUCCESS: 108 - Create Cloudwatch Alarm.mp3 -> 108 - Create Cloudwatch Alarm.srt
+[Worker 3] Processing (13/348): 132 - Dockerfile Introduction.mp3
+
+[PROGRESS] 3/348 processed | Success: 0 | Failed: 0 | Elapsed: 12s
+
+[Worker 7] SUCCESS: 127 - Use Volumes.mp3 -> 127 - Use Volumes.srt
+[Worker 7] Processing (14/348): 134 - Beauty of Docker Layers.mp3
+[Worker 1] SUCCESS: 130 - Change a containers network.mp3 -> 130 - Change a containers network.srt
+[Worker 1] Processing (15/348): 135 - Visual Studio code The Docker IDE.mp3
+
+[PROGRESS] 5/348 processed | Success: 0 | Failed: 0 | Elapsed: 14s
+
+[Worker 10] SUCCESS: 129 - Docker networking in action.mp3 -> 129 - Docker networking in action.srt
+[Worker 10] Processing (16/348): 136 - Install Visual Studio Code IDE.mp3
+[Worker 6] SUCCESS: 131 - Windows Install Docker.mp3 -> 131 - Windows Install Docker.srt
+[Worker 6] Processing (17/348): 137 - Launch MySql Container.mp3
+
+[PROGRESS] 7/348 processed | Success: 0 | Failed: 0 | Elapsed: 16s
+
+[Worker 9] SUCCESS: 128 - Use Bind Mounts.mp3 -> 128 - Use Bind Mounts.srt
+[Worker 9] Processing (18/348): 138 - Create Tables.mp3
+[Worker 2] SUCCESS: 106 - Create Topic and Subscription.mp3 -> 106 - Create Topic and Subscription.srt
+[Worker 2] Processing (19/348): 139 - Dockerize the APPs.mp3
+[Worker 8] SUCCESS: 125 - Launch MySql Container.mp3 -> 125 - Launch MySql Container.srt
+[Worker 8] Processing (20/348): 140 - Build Images.mp3
+
+[PROGRESS] 10/348 processed | Success: 0 | Failed: 0 | Elapsed: 18s
+
+[Worker 10] SUCCESS: 136 - Install Visual Studio Code IDE.mp3 -> 136 - Install Visual Studio Code IDE.srt
+[Worker 10] Processing (21/348): 141 - Launch the Microservice containers.mp3
+[Worker 3] SUCCESS: 132 - Dockerfile Introduction.mp3 -> 132 - Dockerfile Introduction.srt
+[Worker 3] Processing (22/348): 142 - Test.mp3
+[Worker 7] SUCCESS: 134 - Beauty of Docker Layers.mp3 -> 134 - Beauty of Docker Layers.srt
+[Worker 7] Processing (23/348): 143 - Sign Up For Docker Hub.mp3
+[Worker 4] SUCCESS: 109 - Test.mp3 -> 109 - Test.srt
+[Worker 4] Processing (24/348): 144 - Push to Docker Hub.mp3
+
+[PROGRESS] 14/348 processed | Success: 0 | Failed: 0 | Elapsed: 20s
+
+[Worker 5] SUCCESS: 114 - Deploy the Coupon Service.mp3 -> 114 - Deploy the Coupon Service.srt
+[Worker 5] Processing (25/348): 145 - Docker Prune Command.mp3
+[Worker 1] SUCCESS: 135 - Visual Studio code The Docker IDE.mp3 -> 135 - Visual Studio code The Docker IDE.srt
+[Worker 1] Processing (26/348): 146 - Introduction.mp3
+
+[PROGRESS] 16/348 processed | Success: 0 | Failed: 0 | Elapsed: 22s
+
+[Worker 9] SUCCESS: 138 - Create Tables.mp3 -> 138 - Create Tables.srt
+[Worker 9] Processing (27/348): 147 - YAML Syntax.mp3
+[Worker 6] SUCCESS: 137 - Launch MySql Container.mp3 -> 137 - Launch MySql Container.srt
+[Worker 6] Processing (28/348): 148 - Important YAML elements in docker compose.mp3
+[Worker 7] SUCCESS: 143 - Sign Up For Docker Hub.mp3 -> 143 - Sign Up For Docker Hub.srt
+[Worker 7] Processing (29/348): 149 - Compose in action.mp3
+[Worker 3] SUCCESS: 142 - Test.mp3 -> 142 - Test.srt
+[Worker 3] Processing (30/348): 150 - Compose Networks.mp3
+
+[PROGRESS] 20/348 processed | Success: 0 | Failed: 0 | Elapsed: 24s
+
+[Worker 2] SUCCESS: 139 - Dockerize the APPs.mp3 -> 139 - Dockerize the APPs.srt
+[Worker 2] Processing (31/348): 151 - Compose Volumes.mp3
+[Worker 4] SUCCESS: 144 - Push to Docker Hub.mp3 -> 144 - Push to Docker Hub.srt
+[Worker 4] Processing (32/348): 152 - Compose MySql Service.mp3
+
+[PROGRESS] 22/348 processed | Success: 0 | Failed: 0 | Elapsed: 26s
+
+[Worker 8] SUCCESS: 140 - Build Images.mp3 -> 140 - Build Images.srt
+[Worker 8] Processing (33/348): 153 - Compose Micro Services.mp3
+
+[PROGRESS] 23/348 processed | Success: 0 | Failed: 0 | Elapsed: 28s
+
+[Worker 6] SUCCESS: 148 - Important YAML elements in docker compose.mp3 -> 148 - Important YAML elements in docker compose.srt
+[Worker 6] Processing (34/348): 154 - Launch and Test.mp3
+[Worker 5] SUCCESS: 145 - Docker Prune Command.mp3 -> 145 - Docker Prune Command.srt
+[Worker 5] Processing (35/348): 155 - Introduction.mp3
+[Worker 1] SUCCESS: 146 - Introduction.mp3 -> 146 - Introduction.srt
+[Worker 1] Processing (36/348): 156 - Kubernetes Object Model.mp3
+
+[PROGRESS] 26/348 processed | Success: 0 | Failed: 0 | Elapsed: 30s
+
+[Worker 10] SUCCESS: 141 - Launch the Microservice containers.mp3 -> 141 - Launch the Microservice containers.srt
+[Worker 10] Processing (37/348): 157 - Architecture.mp3
+
+[PROGRESS] 27/348 processed | Success: 0 | Failed: 0 | Elapsed: 32s
+
+[Worker 2] SUCCESS: 151 - Compose Volumes.mp3 -> 151 - Compose Volumes.srt
+[Worker 2] Processing (38/348): 158 - Installation Types.mp3
+
+[PROGRESS] 28/348 processed | Success: 0 | Failed: 0 | Elapsed: 34s
+
+[Worker 8] SUCCESS: 153 - Compose Micro Services.mp3 -> 153 - Compose Micro Services.srt
+[Worker 8] Processing (39/348): 159 - Install Minikube on Mac.mp3
+
+[PROGRESS] 29/348 processed | Success: 0 | Failed: 0 | Elapsed: 36s
+
+[Worker 7] SUCCESS: 149 - Compose in action.mp3 -> 149 - Compose in action.srt
+[Worker 7] Processing (40/348): 160 - Install and Use Kubectl.mp3
+[Worker 3] SUCCESS: 150 - Compose Networks.mp3 -> 150 - Compose Networks.srt
+[Worker 3] Processing (41/348): 161 - Windows Only Install Minikube.mp3
+
+[PROGRESS] 31/348 processed | Success: 0 | Failed: 0 | Elapsed: 38s
+
+
+[PROGRESS] 31/348 processed | Success: 0 | Failed: 0 | Elapsed: 40s
+
+[Worker 9] SUCCESS: 147 - YAML Syntax.mp3 -> 147 - YAML Syntax.srt
+[Worker 9] Processing (42/348): 162 - Windows Only Install Kubectl.mp3
+
+[PROGRESS] 32/348 processed | Success: 0 | Failed: 0 | Elapsed: 42s
+
+[Worker 7] SUCCESS: 160 - Install and Use Kubectl.mp3 -> 160 - Install and Use Kubectl.srt
+[Worker 7] Processing (43/348): 163 - Troubleshooting.mp3
+[Worker 4] SUCCESS: 152 - Compose MySql Service.mp3 -> 152 - Compose MySql Service.srt
+[Worker 4] Processing (44/348): 164 - Kubectl configuration.mp3
+[Worker 6] SUCCESS: 154 - Launch and Test.mp3 -> 154 - Launch and Test.srt
+[Worker 6] Processing (45/348): 165 - POD.mp3
+[Worker 2] SUCCESS: 158 - Installation Types.mp3 -> 158 - Installation Types.srt
+[Worker 2] Processing (46/348): 166 - Create First Pod.mp3
+
+[PROGRESS] 36/348 processed | Success: 0 | Failed: 0 | Elapsed: 44s
+
+[Worker 8] SUCCESS: 159 - Install Minikube on Mac.mp3 -> 159 - Install Minikube on Mac.srt
+[Worker 8] Processing (47/348): 167 - Create Pod using YAML.mp3
+[Worker 9] SUCCESS: 162 - Windows Only Install Kubectl.mp3 -> 162 - Windows Only Install Kubectl.srt
+[Worker 9] Processing (48/348): 168 - POD Life Cycle.mp3
+[Worker 3] SUCCESS: 161 - Windows Only Install Minikube.mp3 -> 161 - Windows Only Install Minikube.srt
+[Worker 3] Processing (49/348): 169 - Labels and Selectors.mp3
+[Worker 5] SUCCESS: 155 - Introduction.mp3 -> 155 - Introduction.srt
+[Worker 5] Processing (50/348): 170 - Use Labels and Selectors.mp3
+
+[PROGRESS] 40/348 processed | Success: 0 | Failed: 0 | Elapsed: 46s
+
+[Worker 7] SUCCESS: 163 - Troubleshooting.mp3 -> 163 - Troubleshooting.srt
+[Worker 7] Processing (51/348): 171 - Annotations.mp3
+[Worker 1] SUCCESS: 156 - Kubernetes Object Model.mp3 -> 156 - Kubernetes Object Model.srt
+[Worker 1] Processing (52/348): 172 - Namespaces.mp3
+
+[PROGRESS] 42/348 processed | Success: 0 | Failed: 0 | Elapsed: 48s
+
+[Worker 6] SUCCESS: 165 - POD.mp3 -> 165 - POD.srt
+[Worker 6] Processing (53/348): 173 - Kubectl is cool.mp3
+
+[PROGRESS] 43/348 processed | Success: 0 | Failed: 0 | Elapsed: 50s
+
+[Worker 4] SUCCESS: 164 - Kubectl configuration.mp3 -> 164 - Kubectl configuration.srt
+[Worker 4] Processing (54/348): 174 - Deployment.mp3
+
+[PROGRESS] 44/348 processed | Success: 0 | Failed: 0 | Elapsed: 52s
+
+[Worker 7] SUCCESS: 171 - Annotations.mp3 -> 171 - Annotations.srt
+[Worker 7] Processing (55/348): 175 - Access the cluster using Dashboard.mp3
+
+[PROGRESS] 45/348 processed | Success: 0 | Failed: 0 | Elapsed: 54s
+
+[Worker 3] SUCCESS: 169 - Labels and Selectors.mp3 -> 169 - Labels and Selectors.srt
+[Worker 3] Processing (56/348): 176 - Kubernetes YAML Config Explained.mp3
+[Worker 5] SUCCESS: 170 - Use Labels and Selectors.mp3 -> 170 - Use Labels and Selectors.srt
+[Worker 5] Processing (57/348): 177 - Create Deployment YAML.mp3
+[Worker 2] SUCCESS: 166 - Create First Pod.mp3 -> 166 - Create First Pod.srt
+[Worker 2] Processing (58/348): 178 - Service and Types.mp3
+[Worker 4] SUCCESS: 174 - Deployment.mp3 -> 174 - Deployment.srt
+[Worker 4] Processing (59/348): 179 - Create Service.mp3
+
+[PROGRESS] 49/348 processed | Success: 0 | Failed: 0 | Elapsed: 56s
+
+
+[PROGRESS] 49/348 processed | Success: 0 | Failed: 0 | Elapsed: 58s
+
+[Worker 9] SUCCESS: 168 - POD Life Cycle.mp3 -> 168 - POD Life Cycle.srt
+[Worker 9] Processing (60/348): 180 - Load Balancing.mp3
+[Worker 10] SUCCESS: 157 - Architecture.mp3 -> 157 - Architecture.srt
+[Worker 10] Processing (61/348): 181 - Status in YAML.mp3
+[Worker 6] SUCCESS: 173 - Kubectl is cool.mp3 -> 173 - Kubectl is cool.srt
+[Worker 6] Processing (62/348): 182 - Rolling Updates.mp3
+
+[PROGRESS] 52/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m0s
+
+[Worker 8] SUCCESS: 167 - Create Pod using YAML.mp3 -> 167 - Create Pod using YAML.srt
+[Worker 8] Processing (63/348): 183 - Rolling Updates in action.mp3
+[Worker 1] SUCCESS: 172 - Namespaces.mp3 -> 172 - Namespaces.srt
+[Worker 1] Processing (64/348): 184 - Rollbacks.mp3
+
+[PROGRESS] 54/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m2s
+
+[Worker 7] SUCCESS: 175 - Access the cluster using Dashboard.mp3 -> 175 - Access the cluster using Dashboard.srt
+[Worker 7] Processing (65/348): 185 - Manual Scaling.mp3
+
+[PROGRESS] 55/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m4s
+
+[Worker 3] SUCCESS: 176 - Kubernetes YAML Config Explained.mp3 -> 176 - Kubernetes YAML Config Explained.srt
+[Worker 3] Processing (66/348): 186 - Volumes.mp3
+[Worker 5] SUCCESS: 177 - Create Deployment YAML.mp3 -> 177 - Create Deployment YAML.srt
+[Worker 5] Processing (67/348): 187 - Mount Volumes.mp3
+
+[PROGRESS] 57/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m6s
+
+
+[PROGRESS] 57/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m8s
+
+[Worker 10] SUCCESS: 181 - Status in YAML.mp3 -> 181 - Status in YAML.srt
+[Worker 10] Processing (68/348): 188 - Use ConfigMaps.mp3
+[Worker 7] SUCCESS: 185 - Manual Scaling.mp3 -> 185 - Manual Scaling.srt
+[Worker 7] Processing (69/348): 189 - Secrets.mp3
+[Worker 1] SUCCESS: 184 - Rollbacks.mp3 -> 184 - Rollbacks.srt
+[Worker 1] Processing (70/348): 190 - Using Secrets.mp3
+[Worker 4] SUCCESS: 179 - Create Service.mp3 -> 179 - Create Service.srt
+[Worker 4] Processing (71/348): 191 - Persistent Volumes.mp3
+
+[PROGRESS] 61/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m10s
+
+[Worker 9] SUCCESS: 180 - Load Balancing.mp3 -> 180 - Load Balancing.srt
+[Worker 9] Processing (72/348): 192 - Create PV.mp3
+[Worker 6] SUCCESS: 182 - Rolling Updates.mp3 -> 182 - Rolling Updates.srt
+[Worker 6] Processing (73/348): 193 - Create PVC.mp3
+
+[PROGRESS] 63/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m12s
+
+[Worker 2] SUCCESS: 178 - Service and Types.mp3 -> 178 - Service and Types.srt
+[Worker 2] Processing (74/348): 194 - Mount PVC.mp3
+[Worker 5] SUCCESS: 187 - Mount Volumes.mp3 -> 187 - Mount Volumes.srt
+[Worker 5] Processing (75/348): 195 - Introduction.mp3
+[Worker 8] SUCCESS: 183 - Rolling Updates in action.mp3 -> 183 - Rolling Updates in action.srt
+[Worker 8] Processing (76/348): 196 - How Applications on the cluster communicate.mp3
+
+[PROGRESS] 66/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m14s
+
+[Worker 3] SUCCESS: 186 - Volumes.mp3 -> 186 - Volumes.srt
+[Worker 3] Processing (77/348): 197 - Create DB Deployment.mp3
+[Worker 7] SUCCESS: 189 - Secrets.mp3 -> 189 - Secrets.srt
+[Worker 7] Processing (78/348): 198 - Create ConfigMap.mp3
+
+[PROGRESS] 68/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m16s
+
+
+[PROGRESS] 68/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m18s
+
+[Worker 9] SUCCESS: 192 - Create PV.mp3 -> 192 - Create PV.srt
+[Worker 9] Processing (79/348): 199 - Mount Volumes.mp3
+[Worker 10] SUCCESS: 188 - Use ConfigMaps.mp3 -> 188 - Use ConfigMaps.srt
+[Worker 10] Processing (80/348): 200 - Create DB Service.mp3
+[Worker 6] SUCCESS: 193 - Create PVC.mp3 -> 193 - Create PVC.srt
+[Worker 6] Processing (81/348): 201 - Deploy and Test DB.mp3
+
+[PROGRESS] 71/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m20s
+
+[Worker 1] SUCCESS: 190 - Using Secrets.mp3 -> 190 - Using Secrets.srt
+[Worker 1] Processing (82/348): 202 - Create Coupon and Product YAMLs.mp3
+[Worker 8] SUCCESS: 196 - How Applications on the cluster communicate.mp3 -> 196 - How Applications on the cluster communicate.srt
+[Worker 8] Processing (83/348): 203 - Deploy Product and Coupon apps.mp3
+[Worker 2] SUCCESS: 194 - Mount PVC.mp3 -> 194 - Mount PVC.srt
+[Worker 2] Processing (84/348): 204 - Test.mp3
+
+[PROGRESS] 74/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m22s
+
+[Worker 7] SUCCESS: 198 - Create ConfigMap.mp3 -> 198 - Create ConfigMap.srt
+[Worker 7] Processing (85/348): 205 - Introduction.mp3
+[Worker 5] SUCCESS: 195 - Introduction.mp3 -> 195 - Introduction.srt
+[Worker 5] Processing (86/348): 206 - Generate Docker Image.mp3
+[Worker 4] SUCCESS: 191 - Persistent Volumes.mp3 -> 191 - Persistent Volumes.srt
+[Worker 4] Processing (87/348): 207 - Deploy to Kubernetes.mp3
+[Worker 9] SUCCESS: 199 - Mount Volumes.mp3 -> 199 - Mount Volumes.srt
+[Worker 9] Processing (88/348): 208 - Use NodePort.mp3
+[Worker 3] SUCCESS: 197 - Create DB Deployment.mp3 -> 197 - Create DB Deployment.srt
+[Worker 3] Processing (89/348): 209 - Logs and Debugging.mp3
+
+[PROGRESS] 79/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m24s
+
+[Worker 10] SUCCESS: 200 - Create DB Service.mp3 -> 200 - Create DB Service.srt
+[Worker 10] Processing (90/348): 210 - Introduction.mp3
+
+[PROGRESS] 80/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m26s
+
+[Worker 8] SUCCESS: 203 - Deploy Product and Coupon apps.mp3 -> 203 - Deploy Product and Coupon apps.srt
+[Worker 8] Processing (91/348): 211 - How Swarm works.mp3
+[Worker 2] SUCCESS: 204 - Test.mp3 -> 204 - Test.srt
+[Worker 2] Processing (92/348): 212 - Architecture.mp3
+[Worker 6] SUCCESS: 201 - Deploy and Test DB.mp3 -> 201 - Deploy and Test DB.srt
+[Worker 6] Processing (93/348): 213 - Create EC2 Instances.mp3
+
+[PROGRESS] 83/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m28s
+
+[Worker 1] SUCCESS: 202 - Create Coupon and Product YAMLs.mp3 -> 202 - Create Coupon and Product YAMLs.srt
+[Worker 1] Processing (94/348): 214 - Setup Swarm.mp3
+[Worker 9] SUCCESS: 208 - Use NodePort.mp3 -> 208 - Use NodePort.srt
+[Worker 9] Processing (95/348): 215 - Add another manager.mp3
+
+[PROGRESS] 85/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m30s
+
+[Worker 7] SUCCESS: 205 - Introduction.mp3 -> 205 - Introduction.srt
+[Worker 7] Processing (96/348): 216 - Create a Service.mp3
+[Worker 5] SUCCESS: 206 - Generate Docker Image.mp3 -> 206 - Generate Docker Image.srt
+[Worker 5] Processing (97/348): 217 - Multiple Replicas and Scaling.mp3
+
+[PROGRESS] 87/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m32s
+
+[Worker 10] SUCCESS: 210 - Introduction.mp3 -> 210 - Introduction.srt
+[Worker 10] Processing (98/348): 218 - Update and Rollback.mp3
+[Worker 3] SUCCESS: 209 - Logs and Debugging.mp3 -> 209 - Logs and Debugging.srt
+[Worker 3] Processing (99/348): 219 - Drain Worker Node.mp3
+
+[PROGRESS] 89/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m34s
+
+[Worker 4] SUCCESS: 207 - Deploy to Kubernetes.mp3 -> 207 - Deploy to Kubernetes.srt
+[Worker 4] Processing (100/348): 220 - Docker Stack Deploy.mp3
+[Worker 8] SUCCESS: 211 - How Swarm works.mp3 -> 211 - How Swarm works.srt
+[Worker 8] Processing (101/348): 221 - Stack Deploy.mp3
+
+[PROGRESS] 91/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m36s
+
+[Worker 2] SUCCESS: 212 - Architecture.mp3 -> 212 - Architecture.srt
+[Worker 2] Processing (102/348): 242 - Webhooks Introduction.mp3
+[Worker 6] SUCCESS: 213 - Create EC2 Instances.mp3 -> 213 - Create EC2 Instances.srt
+[Worker 6] Processing (103/348): 243 - GitHub Webhooks in action.mp3
+
+[PROGRESS] 93/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m38s
+
+[Worker 2] SUCCESS: 242 - Webhooks Introduction.mp3 -> 242 - Webhooks Introduction.srt
+[Worker 2] Processing (104/348): 244 - Master and Agent.mp3
+
+[PROGRESS] 94/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m40s
+
+[Worker 7] SUCCESS: 216 - Create a Service.mp3 -> 216 - Create a Service.srt
+[Worker 7] Processing (105/348): 245 - Step 1 Generate the keys on master.mp3
+[Worker 4] SUCCESS: 220 - Docker Stack Deploy.mp3 -> 220 - Docker Stack Deploy.srt
+[Worker 4] Processing (106/348): 246 - Step 2 Launch the agent instance.mp3
+[Worker 8] SUCCESS: 221 - Stack Deploy.mp3 -> 221 - Stack Deploy.srt
+[Worker 8] Processing (107/348): 247 - Step 3 Create a node using the agent.mp3
+[Worker 5] SUCCESS: 217 - Multiple Replicas and Scaling.mp3 -> 217 - Multiple Replicas and Scaling.srt
+[Worker 5] Processing (108/348): 248 - Step 4 Agent 007 in action.mp3
+[Worker 3] SUCCESS: 219 - Drain Worker Node.mp3 -> 219 - Drain Worker Node.srt
+[Worker 3] Processing (109/348): 249 - Introduction.mp3
+
+[PROGRESS] 99/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m42s
+
+[Worker 10] SUCCESS: 218 - Update and Rollback.mp3 -> 218 - Update and Rollback.srt
+[Worker 10] Processing (110/348): 250 - First Pipeline.mp3
+[Worker 2] SUCCESS: 244 - Master and Agent.mp3 -> 244 - Master and Agent.srt
+[Worker 2] Processing (111/348): 251 - Multi Stage Pipeline.mp3
+
+[PROGRESS] 101/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m44s
+
+[Worker 1] SUCCESS: 214 - Setup Swarm.mp3 -> 214 - Setup Swarm.srt
+[Worker 1] Processing (112/348): 252 - Reading environment variables.mp3
+[Worker 9] SUCCESS: 215 - Add another manager.mp3 -> 215 - Add another manager.srt
+[Worker 9] Processing (113/348): 253 - Pass parameters to the pipeline.mp3
+
+[PROGRESS] 103/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m46s
+
+[Worker 4] SUCCESS: 246 - Step 2 Launch the agent instance.mp3 -> 246 - Step 2 Launch the agent instance.srt
+[Worker 4] Processing (114/348): 254 - Requesting user input.mp3
+[Worker 6] SUCCESS: 243 - GitHub Webhooks in action.mp3 -> 243 - GitHub Webhooks in action.srt
+[Worker 6] Processing (115/348): 255 - Create a Java Project Pipeline.mp3
+[Worker 7] SUCCESS: 245 - Step 1 Generate the keys on master.mp3 -> 245 - Step 1 Generate the keys on master.srt
+[Worker 7] Processing (116/348): 256 - Test Pipeline.mp3
+
+[PROGRESS] 106/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m48s
+
+[Worker 3] SUCCESS: 249 - Introduction.mp3 -> 249 - Introduction.srt
+[Worker 3] Processing (117/348): 257 - Create a Java Web Project Pipeline.mp3
+[Worker 8] SUCCESS: 247 - Step 3 Create a node using the agent.mp3 -> 247 - Step 3 Create a node using the agent.srt
+[Worker 8] Processing (118/348): 258 - Test Pipeline.mp3
+[Worker 5] SUCCESS: 248 - Step 4 Agent 007 in action.mp3 -> 248 - Step 4 Agent 007 in action.srt
+[Worker 5] Processing (119/348): 259 - Introduction.mp3
+[Worker 2] SUCCESS: 251 - Multi Stage Pipeline.mp3 -> 251 - Multi Stage Pipeline.srt
+[Worker 2] Processing (120/348): 260 - Creating a IAM User.mp3
+
+[PROGRESS] 110/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m50s
+
+[Worker 1] SUCCESS: 252 - Reading environment variables.mp3 -> 252 - Reading environment variables.srt
+[Worker 1] Processing (121/348): 261 - Create Custom Policy.mp3
+[Worker 9] SUCCESS: 253 - Pass parameters to the pipeline.mp3 -> 253 - Pass parameters to the pipeline.srt
+[Worker 9] Processing (122/348): 262 - Create and Assign Role.mp3
+[Worker 4] SUCCESS: 254 - Requesting user input.mp3 -> 254 - Requesting user input.srt
+[Worker 4] Processing (123/348): 263 - Introduction.mp3
+
+[PROGRESS] 113/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m52s
+
+[Worker 10] SUCCESS: 250 - First Pipeline.mp3 -> 250 - First Pipeline.srt
+[Worker 10] Processing (124/348): 264 - Create Programmatic User.mp3
+
+[PROGRESS] 114/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m54s
+
+[Worker 6] SUCCESS: 255 - Create a Java Project Pipeline.mp3 -> 255 - Create a Java Project Pipeline.srt
+[Worker 6] Processing (125/348): 265 - Install and configure CLI.mp3
+[Worker 5] SUCCESS: 259 - Introduction.mp3 -> 259 - Introduction.srt
+[Worker 5] Processing (126/348): 266 - Run Commainds.mp3
+
+[PROGRESS] 116/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m56s
+
+[Worker 4] SUCCESS: 263 - Introduction.mp3 -> 263 - Introduction.srt
+[Worker 4] Processing (127/348): 267 - Create and Terminate EC2 Instance.mp3
+[Worker 7] SUCCESS: 256 - Test Pipeline.mp3 -> 256 - Test Pipeline.srt
+[Worker 7] Processing (128/348): 268 - Introduction.mp3
+
+[PROGRESS] 118/348 processed | Success: 0 | Failed: 0 | Elapsed: 1m58s
+
+[Worker 3] SUCCESS: 257 - Create a Java Web Project Pipeline.mp3 -> 257 - Create a Java Web Project Pipeline.srt
+[Worker 3] Processing (129/348): 269 - Create and Test a Lambda.mp3
+[Worker 10] SUCCESS: 264 - Create Programmatic User.mp3 -> 264 - Create Programmatic User.srt
+[Worker 10] Processing (130/348): 270 - Introduction.mp3
+[Worker 9] SUCCESS: 262 - Create and Assign Role.mp3 -> 262 - Create and Assign Role.srt
+[Worker 9] Processing (131/348): 271 - Master and Agent.mp3
+[Worker 8] SUCCESS: 258 - Test Pipeline.mp3 -> 258 - Test Pipeline.srt
+[Worker 8] Processing (132/348): 272 - Establish SSH between Master and Agent.mp3
+
+[PROGRESS] 122/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m0s
+
+[Worker 2] SUCCESS: 260 - Creating a IAM User.mp3 -> 260 - Creating a IAM User.srt
+[Worker 2] Processing (133/348): 273 - Configure hostname and execute remote commands.mp3
+
+[PROGRESS] 123/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m2s
+
+[Worker 6] SUCCESS: 265 - Install and configure CLI.mp3 -> 265 - Install and configure CLI.srt
+[Worker 6] Processing (134/348): 274 - Web Server Creation through Master.mp3
+
+[PROGRESS] 124/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m4s
+
+[Worker 4] SUCCESS: 267 - Create and Terminate EC2 Instance.mp3 -> 267 - Create and Terminate EC2 Instance.srt
+[Worker 4] Processing (135/348): 275 - Create and Run First Playbook.mp3
+[Worker 1] SUCCESS: 261 - Create Custom Policy.mp3 -> 261 - Create Custom Policy.srt
+[Worker 1] Processing (136/348): 276 - Looping in action.mp3
+
+[PROGRESS] 126/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m6s
+
+[Worker 5] SUCCESS: 266 - Run Commainds.mp3 -> 266 - Run Commainds.srt
+[Worker 5] Processing (137/348): 277 - Install Packages.mp3
+[Worker 10] SUCCESS: 270 - Introduction.mp3 -> 270 - Introduction.srt
+[Worker 10] Processing (138/348): 278 - Tag Tasks.mp3
+[Worker 7] SUCCESS: 268 - Introduction.mp3 -> 268 - Introduction.srt
+[Worker 7] Processing (139/348): 279 - More Tags.mp3
+
+[PROGRESS] 129/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m8s
+
+
+[PROGRESS] 129/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m10s
+
+[Worker 3] SUCCESS: 269 - Create and Test a Lambda.mp3 -> 269 - Create and Test a Lambda.srt
+[Worker 3] Processing (140/348): 280 - Setup the database.mp3
+[Worker 1] SUCCESS: 276 - Looping in action.mp3 -> 276 - Looping in action.srt
+[Worker 1] Processing (141/348): 281 - Create the Project Entities and Repo.mp3
+
+[PROGRESS] 131/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m12s
+
+[Worker 5] SUCCESS: 277 - Install Packages.mp3 -> 277 - Install Packages.srt
+[Worker 5] Processing (142/348): 282 - Create the API and Test.mp3
+[Worker 8] SUCCESS: 272 - Establish SSH between Master and Agent.mp3 -> 272 - Establish SSH between Master and Agent.srt
+[Worker 8] Processing (143/348): 283 - Launch a MySql Docker Container.mp3
+
+[PROGRESS] 133/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m14s
+
+[Worker 3] SUCCESS: 280 - Setup the database.mp3 -> 280 - Setup the database.srt
+[Worker 3] Processing (144/348): 284 - Dockerize the Flight Services APP.mp3
+[Worker 6] SUCCESS: 274 - Web Server Creation through Master.mp3 -> 274 - Web Server Creation through Master.srt
+[Worker 6] Processing (145/348): 285 - Launch the Flight Service Container.mp3
+[Worker 2] SUCCESS: 273 - Configure hostname and execute remote commands.mp3 -> 273 - Configure hostname and execute remote commands.srt
+[Worker 2] Processing (146/348): 25 - Browsing Directories and Files.mp3
+[Worker 9] SUCCESS: 271 - Master and Agent.mp3 -> 271 - Master and Agent.srt
+[Worker 9] Processing (147/348): 286 - Compose the Mysql Container.mp3
+
+[PROGRESS] 137/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m16s
+
+[Worker 10] SUCCESS: 278 - Tag Tasks.mp3 -> 278 - Tag Tasks.srt
+[Worker 10] Processing (148/348): 287 - Compose Flight Services App.mp3
+[Worker 4] SUCCESS: 275 - Create and Run First Playbook.mp3 -> 275 - Create and Run First Playbook.srt
+[Worker 4] Processing (149/348): 288 - Compose in action.mp3
+[Worker 7] SUCCESS: 279 - More Tags.mp3 -> 279 - More Tags.srt
+[Worker 7] Processing (150/348): 289 - Congratulations and Thank You.mp3
+
+[PROGRESS] 140/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m18s
+
+[Worker 1] SUCCESS: 281 - Create the Project Entities and Repo.mp3 -> 281 - Create the Project Entities and Repo.srt
+[Worker 1] Processing (151/348): 41 - Create remote repo.mp3
+[Worker 5] SUCCESS: 282 - Create the API and Test.mp3 -> 282 - Create the API and Test.srt
+[Worker 5] Processing (152/348): 61 - Repositories.mp3
+
+[PROGRESS] 142/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m20s
+
+[Worker 3] SUCCESS: 284 - Dockerize the Flight Services APP.mp3 -> 284 - Dockerize the Flight Services APP.srt
+[Worker 3] Processing (153/348): 62 - Create a java project and push it to github.mp3
+
+[PROGRESS] 143/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m22s
+
+[Worker 8] SUCCESS: 283 - Launch a MySql Docker Container.mp3 -> 283 - Launch a MySql Docker Container.srt
+[Worker 8] Processing (154/348): 63 - Create a java web application and push it to gibhub.mp3
+[Worker 7] SUCCESS: 289 - Congratulations and Thank You.mp3 -> 289 - Congratulations and Thank You.srt
+[Worker 7] Processing (155/348): 64 - Install maven and create projects on linux.mp3
+
+[PROGRESS] 145/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m24s
+
+
+[PROGRESS] 145/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m26s
+
+[Worker 6] SUCCESS: 285 - Launch the Flight Service Container.mp3 -> 285 - Launch the Flight Service Container.srt
+[Worker 6] Processing (156/348): 65 - Install Java on Windows.mp3
+[Worker 2] SUCCESS: 25 - Browsing Directories and Files.mp3 -> 25 - Browsing Directories and Files.srt
+[Worker 2] Processing (157/348): 66 - Install Java.mp3
+
+[PROGRESS] 147/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m28s
+
+
+[PROGRESS] 147/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m30s
+
+[Worker 7] SUCCESS: 64 - Install maven and create projects on linux.mp3 -> 64 - Install maven and create projects on linux.srt
+[Worker 7] Processing (158/348): 67 - Install STS.mp3
+[Worker 3] SUCCESS: 62 - Create a java project and push it to github.mp3 -> 62 - Create a java project and push it to github.srt
+[Worker 3] Processing (159/348): 68 - Configure JDK in STS.mp3
+[Worker 1] SUCCESS: 41 - Create remote repo.mp3 -> 41 - Create remote repo.srt
+[Worker 1] Processing (160/348): 69 - Windows Only Install Mysql.mp3
+[Worker 8] SUCCESS: 63 - Create a java web application and push it to gibhub.mp3 -> 63 - Create a java web application and push it to gibhub.srt
+[Worker 8] Processing (161/348): 70 - Windows Only Install Mysql Workbench.mp3
+[Worker 10] SUCCESS: 287 - Compose Flight Services App.mp3 -> 287 - Compose Flight Services App.srt
+[Worker 10] Processing (162/348): 71 - MySql and Workbench on Mac.mp3
+[Worker 5] SUCCESS: 61 - Repositories.mp3 -> 61 - Repositories.srt
+[Worker 5] Processing (163/348): 72 - Install Postman.mp3
+
+[PROGRESS] 153/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m32s
+
+[Worker 7] SUCCESS: 67 - Install STS.mp3 -> 67 - Install STS.srt
+[Worker 7] Processing (164/348): 73 - Completed projects for download.mp3
+[Worker 2] SUCCESS: 66 - Install Java.mp3 -> 66 - Install Java.srt
+[Worker 2] Processing (165/348): 74 - Usecase.mp3
+[Worker 4] SUCCESS: 288 - Compose in action.mp3 -> 288 - Compose in action.srt
+[Worker 4] Processing (166/348): 76 - Create the Project.mp3
+[Worker 3] SUCCESS: 68 - Configure JDK in STS.mp3 -> 68 - Configure JDK in STS.srt
+[Worker 3] Processing (167/348): 77 - Create model and repository.mp3
+[Worker 9] SUCCESS: 286 - Compose the Mysql Container.mp3 -> 286 - Compose the Mysql Container.srt
+[Worker 9] Processing (168/348): 80 - Test.mp3
+
+[PROGRESS] 158/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m34s
+
+[Worker 6] SUCCESS: 65 - Install Java on Windows.mp3 -> 65 - Install Java on Windows.srt
+[Worker 6] Processing (169/348): 81 - Create the Product Microservice Project Model and Repository.mp3
+
+[PROGRESS] 159/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m36s
+
+[Worker 8] SUCCESS: 70 - Windows Only Install Mysql Workbench.mp3 -> 70 - Windows Only Install Mysql Workbench.srt
+[Worker 8] Processing (170/348): 82 - Create the RestController.mp3
+[Worker 7] SUCCESS: 73 - Completed projects for download.mp3 -> 73 - Completed projects for download.srt
+[Worker 7] Processing (171/348): 83 - Configure DataSource.mp3
+[Worker 5] SUCCESS: 72 - Install Postman.mp3 -> 72 - Install Postman.srt
+[Worker 5] Processing (172/348): 84 - Test.mp3
+[Worker 10] SUCCESS: 71 - MySql and Workbench on Mac.mp3 -> 71 - MySql and Workbench on Mac.srt
+[Worker 10] Processing (173/348): 85 - Integrating Microservices.mp3
+[Worker 4] SUCCESS: 76 - Create the Project.mp3 -> 76 - Create the Project.srt
+[Worker 4] Processing (174/348): 86 - Integration Test.mp3
+
+[PROGRESS] 164/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m38s
+
+[Worker 7] SUCCESS: 83 - Configure DataSource.mp3 -> 83 - Configure DataSource.srt
+[Worker 7] Processing (175/348): 87 - S3.mp3
+[Worker 2] SUCCESS: 74 - Usecase.mp3 -> 74 - Usecase.srt
+[Worker 2] Processing (176/348): 88 - Launch Instance and Setup the instance.mp3
+[Worker 3] SUCCESS: 77 - Create model and repository.mp3 -> 77 - Create model and repository.srt
+[Worker 3] Processing (177/348): 96 - Introduction.mp3
+[Worker 9] SUCCESS: 80 - Test.mp3 -> 80 - Test.srt
+[Worker 9] Processing (178/348): 97 - Create Load Balancer.mp3
+
+[PROGRESS] 168/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m40s
+
+[Worker 1] SUCCESS: 69 - Windows Only Install Mysql.mp3 -> 69 - Windows Only Install Mysql.srt
+[Worker 1] Processing (179/348): 1 -Introduction.mp3
+[Worker 8] SUCCESS: 82 - Create the RestController.mp3 -> 82 - Create the RestController.srt
+[Worker 8] Processing (180/348): 2 -What is MCP.mp3
+[Worker 6] SUCCESS: 81 - Create the Product Microservice Project Model and Repository.mp3 -> 81 - Create the Product Microservice Project Model and Repository.srt
+[Worker 6] Processing (181/348): 3 -Problem Statement.mp3
+[Worker 5] SUCCESS: 84 - Test.mp3 -> 84 - Test.srt
+[Worker 5] Processing (182/348): 4 -MCP  Architecture.mp3
+
+[PROGRESS] 172/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m42s
+
+[Worker 4] SUCCESS: 86 - Integration Test.mp3 -> 86 - Integration Test.srt
+[Worker 4] Processing (183/348): 5 -Prerequisite.mp3
+[Worker 1] SUCCESS: 1 -Introduction.mp3 -> 1 -Introduction.srt
+[Worker 1] Processing (184/348): 1 -Sign up With Open AI.mp3
+[Worker 6] SUCCESS: 3 -Problem Statement.mp3 -> 3 -Problem Statement.srt
+[Worker 6] Processing (185/348): 2 -Billing Information.mp3
+[Worker 8] SUCCESS: 2 -What is MCP.mp3 -> 2 -What is MCP.srt
+[Worker 8] Processing (186/348): 3 -Generating API Keys.mp3
+
+[PROGRESS] 176/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m44s
+
+[Worker 3] SUCCESS: 96 - Introduction.mp3 -> 96 - Introduction.srt
+[Worker 3] Processing (187/348): 1 -Chat client Application Flow.mp3
+[Worker 5] SUCCESS: 4 -MCP  Architecture.mp3 -> 4 -MCP  Architecture.srt
+[Worker 5] Processing (188/348): 2 -Spring AI Quickstart Example.mp3
+[Worker 4] SUCCESS: 5 -Prerequisite.mp3 -> 5 -Prerequisite.srt
+[Worker 4] Processing (189/348): 3 -Message and Message Type.mp3
+
+[PROGRESS] 179/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m46s
+
+[Worker 10] SUCCESS: 85 - Integrating Microservices.mp3 -> 85 - Integrating Microservices.srt
+[Worker 10] Processing (190/348): 4 -Message Type example.mp3
+[Worker 1] SUCCESS: 1 -Sign up With Open AI.mp3 -> 1 -Sign up With Open AI.srt
+[Worker 1] Processing (191/348): 5 -Default System Message Example.mp3
+[Worker 8] SUCCESS: 3 -Generating API Keys.mp3 -> 3 -Generating API Keys.srt
+[Worker 8] Processing (192/348): 6 -Default Sysmtem Message using Resource and multiline String.mp3
+[Worker 6] SUCCESS: 2 -Billing Information.mp3 -> 2 -Billing Information.srt
+[Worker 6] Processing (193/348): 1 -MCP Getting started.mp3
+
+[PROGRESS] 183/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m48s
+
+[Worker 3] SUCCESS: 1 -Chat client Application Flow.mp3 -> 1 -Chat client Application Flow.srt
+[Worker 3] Processing (194/348): 2 -MCP basic setup and example.mp3
+[Worker 2] SUCCESS: 88 - Launch Instance and Setup the instance.mp3 -> 88 - Launch Instance and Setup the instance.srt
+[Worker 2] Processing (195/348): 3 -Custom MCP Server using Spring AI.mp3
+[Worker 6] SUCCESS: 1 -MCP Getting started.mp3 -> 1 -MCP Getting started.srt
+[Worker 6] Processing (196/348): 4 -Custom MCP Client using Spring AI.mp3
+[Worker 9] SUCCESS: 97 - Create Load Balancer.mp3 -> 97 - Create Load Balancer.srt
+[Worker 9] Processing (197/348): 5 -MCP Assignment.mp3
+
+[PROGRESS] 187/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m50s
+
+[Worker 7] SUCCESS: 87 - S3.mp3 -> 87 - S3.srt
+[Worker 7] Processing (198/348): 6 -MCP Assignment Solution.mp3
+
+[PROGRESS] 188/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m52s
+
+[Worker 8] SUCCESS: 6 -Default Sysmtem Message using Resource and multiline String.mp3 -> 6 -Default Sysmtem Message using Resource and multiline String.srt
+[Worker 8] Processing (199/348): 7 -Spring MVC based SSE transport implementation.mp3
+[Worker 10] SUCCESS: 4 -Message Type example.mp3 -> 4 -Message Type example.srt
+[Worker 10] Processing (200/348): 8 -Dynamic Tool Updates in MCP.mp3
+[Worker 9] SUCCESS: 5 -MCP Assignment.mp3 -> 5 -MCP Assignment.srt
+[Worker 9] Processing (201/348): 1 -Authorization and security in MCP example.mp3
+
+[PROGRESS] 191/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m54s
+
+[Worker 4] SUCCESS: 3 -Message and Message Type.mp3 -> 3 -Message and Message Type.srt
+[Worker 4] Processing (202/348): 1 -Thank You.mp3
+[Worker 1] SUCCESS: 5 -Default System Message Example.mp3 -> 5 -Default System Message Example.srt
+[Worker 1] Processing (203/348): 1 -Breaking the Monolith  Microservices Series Teaser.mp3
+[Worker 5] SUCCESS: 2 -Spring AI Quickstart Example.mp3 -> 2 -Spring AI Quickstart Example.srt
+[Worker 5] Processing (204/348): 2 -Introduction.mp3
+
+[PROGRESS] 194/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m56s
+
+
+[PROGRESS] 194/348 processed | Success: 0 | Failed: 0 | Elapsed: 2m58s
+
+[Worker 4] SUCCESS: 1 -Thank You.mp3 -> 1 -Thank You.srt
+[Worker 4] Processing (205/348): 1 -Microservices Explained with Mutual Fund Example + ER Diagram.mp3
+[Worker 3] SUCCESS: 2 -MCP basic setup and example.mp3 -> 2 -MCP basic setup and example.srt
+[Worker 3] Processing (206/348): 2 -Monolithic vs Microservices Architecture.mp3
+
+[PROGRESS] 196/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m0s
+
+[Worker 10] SUCCESS: 8 -Dynamic Tool Updates in MCP.mp3 -> 8 -Dynamic Tool Updates in MCP.srt
+[Worker 10] Processing (207/348): 1 -How to Create a REST API using Spring Boot.mp3
+[Worker 1] SUCCESS: 1 -Breaking the Monolith  Microservices Series Teaser.mp3 -> 1 -Breaking the Monolith  Microservices Series Teaser.srt
+[Worker 1] Processing (208/348): 2 -Build a User Service (MySQL + JPA).mp3
+
+[PROGRESS] 198/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m2s
+
+[Worker 2] SUCCESS: 3 -Custom MCP Server using Spring AI.mp3 -> 3 -Custom MCP Server using Spring AI.srt
+[Worker 2] Processing (209/348): 3 -Build a Fund Microservice.mp3
+[Worker 8] SUCCESS: 7 -Spring MVC based SSE transport implementation.mp3 -> 7 -Spring MVC based SSE transport implementation.srt
+[Worker 8] Processing (210/348): 1 -WebClient for Interservice Communication.mp3
+
+[PROGRESS] 200/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m4s
+
+[Worker 5] SUCCESS: 2 -Introduction.mp3 -> 2 -Introduction.srt
+[Worker 5] Processing (211/348): 2 -Using RestTemplate (Legacy Support).mp3
+
+[PROGRESS] 201/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m6s
+
+
+[PROGRESS] 201/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m8s
+
+
+[PROGRESS] 201/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m10s
+
+[Worker 6] SUCCESS: 4 -Custom MCP Client using Spring AI.mp3 -> 4 -Custom MCP Client using Spring AI.srt
+[Worker 6] Processing (212/348): 1 -Service Registry with Eureka.mp3
+[Worker 9] SUCCESS: 1 -Authorization and security in MCP example.mp3 -> 1 -Authorization and security in MCP example.srt
+[Worker 9] Processing (213/348): 2 -API Gateway with Spring Cloud Gateway.mp3
+
+[PROGRESS] 203/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m12s
+
+[Worker 4] SUCCESS: 1 -Microservices Explained with Mutual Fund Example + ER Diagram.mp3 -> 1 -Microservices Explained with Mutual Fund Example + ER Diagram.srt
+[Worker 4] Processing (214/348): 1 -Resilience4j for Circuit Breaking.mp3
+
+[PROGRESS] 204/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m14s
+
+
+[PROGRESS] 204/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m16s
+
+[Worker 7] SUCCESS: 6 -MCP Assignment Solution.mp3 -> 6 -MCP Assignment Solution.srt
+[Worker 7] Processing (215/348): 2 -Spring Cloud Config Server Setup.mp3
+
+[PROGRESS] 205/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m18s
+
+[Worker 10] SUCCESS: 1 -How to Create a REST API using Spring Boot.mp3 -> 1 -How to Create a REST API using Spring Boot.srt
+[Worker 10] Processing (216/348): 1 -Caching in Spring Boot.mp3
+
+[PROGRESS] 206/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m20s
+
+[Worker 5] SUCCESS: 2 -Using RestTemplate (Legacy Support).mp3 -> 2 -Using RestTemplate (Legacy Support).srt
+[Worker 5] Processing (217/348): 2 -Real-Time Redis Cache Integration.mp3
+[Worker 3] SUCCESS: 2 -Monolithic vs Microservices Architecture.mp3 -> 2 -Monolithic vs Microservices Architecture.srt
+[Worker 3] Processing (218/348): 4. Introduction to Micrometer.mp3
+
+[PROGRESS] 208/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m22s
+
+
+[PROGRESS] 208/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m24s
+
+
+[PROGRESS] 208/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m26s
+
+
+[PROGRESS] 208/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m28s
+
+[Worker 2] SUCCESS: 3 -Build a Fund Microservice.mp3 -> 3 -Build a Fund Microservice.srt
+[Worker 2] Processing (219/348): 8. Discuss common problems that might occur and how to troubleshoot them..mp3
+
+[PROGRESS] 209/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m30s
+
+
+[PROGRESS] 209/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m32s
+
+
+[PROGRESS] 209/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m34s
+
+[Worker 8] SUCCESS: 1 -WebClient for Interservice Communication.mp3 -> 1 -WebClient for Interservice Communication.srt
+[Worker 8] Processing (220/348): 1. Introduction to Configuration Management.mp3
+
+[PROGRESS] 210/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m36s
+
+
+[PROGRESS] 210/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m38s
+
+[Worker 7] SUCCESS: 2 -Spring Cloud Config Server Setup.mp3 -> 2 -Spring Cloud Config Server Setup.srt
+[Worker 7] Processing (221/348): 2. Spring Cloud Config Server.mp3
+
+[PROGRESS] 211/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m40s
+
+
+[PROGRESS] 211/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m42s
+
+[Worker 3] SUCCESS: 4. Introduction to Micrometer.mp3 -> 4. Introduction to Micrometer.srt
+[Worker 3] Processing (222/348): 14. Get a review by review ID for a specific company.mp3
+
+[PROGRESS] 212/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m44s
+
+
+[PROGRESS] 212/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m46s
+
+[Worker 2] SUCCESS: 8. Discuss common problems that might occur and how to troubleshoot them..mp3 -> 8. Discuss common problems that might occur and how to troubleshoot them..srt
+[Worker 2] Processing (223/348): 1. Spring Boot with REST API, MVC and Microservices - Course Agenda.mp3
+[Worker 8] SUCCESS: 1. Introduction to Configuration Management.mp3 -> 1. Introduction to Configuration Management.srt
+[Worker 8] Processing (224/348): 5. Spring Boot Starters, Parents and Dev Tools.mp3
+
+[PROGRESS] 214/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m48s
+
+[Worker 4] SUCCESS: 1 -Resilience4j for Circuit Breaking.mp3 -> 1 -Resilience4j for Circuit Breaking.srt
+[Worker 4] Processing (225/348): 2. Understanding JSON, HTTP Methods and Postman Client.mp3
+
+[PROGRESS] 215/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m50s
+
+[Worker 9] SUCCESS: 2 -API Gateway with Spring Cloud Gateway.mp3 -> 2 -API Gateway with Spring Cloud Gateway.srt
+[Worker 9] Processing (226/348): 1. The Entire System Architecture to Be Developed in the Course.mp3
+
+[PROGRESS] 216/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m52s
+
+
+[PROGRESS] 216/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m54s
+
+
+[PROGRESS] 216/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m56s
+
+[Worker 6] SUCCESS: 1 -Service Registry with Eureka.mp3 -> 1 -Service Registry with Eureka.srt
+[Worker 6] Processing (227/348): 1. Create and Update Requests Classes.mp3
+
+[PROGRESS] 217/348 processed | Success: 0 | Failed: 0 | Elapsed: 3m58s
+
+
+[PROGRESS] 217/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m0s
+
+[Worker 3] SUCCESS: 14. Get a review by review ID for a specific company.mp3 -> 14. Get a review by review ID for a specific company.srt
+[Worker 3] Processing (228/348): 1. Product Repository Service.mp3
+
+[PROGRESS] 218/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m2s
+
+[Worker 9] SUCCESS: 1. The Entire System Architecture to Be Developed in the Course.mp3 -> 1. The Entire System Architecture to Be Developed in the Course.srt
+[Worker 9] Processing (229/348): 1. Friendly Message.mp3
+
+[PROGRESS] 219/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m4s
+
+[Worker 7] SUCCESS: 2. Spring Cloud Config Server.mp3 -> 2. Spring Cloud Config Server.srt
+[Worker 7] Processing (230/348): 1. Internal Api Response.mp3
+
+[PROGRESS] 220/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m6s
+
+
+[PROGRESS] 220/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m8s
+
+[Worker 3] SUCCESS: 1. Product Repository Service.mp3 -> 1. Product Repository Service.srt
+[Worker 3] Processing (231/348): 1. Create GlobalHandlerException and ProductNotFoundException Classes.mp3
+[Worker 6] SUCCESS: 1. Create and Update Requests Classes.mp3 -> 1. Create and Update Requests Classes.srt
+[Worker 6] Processing (232/348): 1. ServiceImpl - createProduct Method.mp3
+[Worker 9] SUCCESS: 1. Friendly Message.mp3 -> 1. Friendly Message.srt
+[Worker 9] Processing (233/348): 1. Product Response Class.mp3
+
+[PROGRESS] 223/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m10s
+
+
+[PROGRESS] 223/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m12s
+
+[Worker 9] SUCCESS: 1. Product Response Class.mp3 -> 1. Product Response Class.srt
+[Worker 9] Processing (234/348): 1. Product Controller and createProduct method.mp3
+
+[PROGRESS] 224/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m14s
+
+
+[PROGRESS] 224/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m16s
+
+[Worker 10] SUCCESS: 1 -Caching in Spring Boot.mp3 -> 1 -Caching in Spring Boot.srt
+[Worker 10] Processing (235/348): 1. Running the Project, Creating the Table in Postgresql, Testing the Service.mp3
+[Worker 2] SUCCESS: 1. Spring Boot with REST API, MVC and Microservices - Course Agenda.mp3 -> 1. Spring Boot with REST API, MVC and Microservices - Course Agenda.srt
+[Worker 2] Processing (236/348): 1. Things to Check If You Encounter an Error When Running the Project.mp3
+
+[PROGRESS] 226/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m18s
+
+
+[PROGRESS] 226/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m20s
+
+
+[PROGRESS] 226/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m22s
+
+[Worker 10] SUCCESS: 1. Running the Project, Creating the Table in Postgresql, Testing the Service.mp3 -> 1. Running the Project, Creating the Table in Postgresql, Testing the Service.srt
+[Worker 10] Processing (237/348): 1. Monolitich and Micro Service Architecture.mp3
+[Worker 5] SUCCESS: 2 -Real-Time Redis Cache Integration.mp3 -> 2 -Real-Time Redis Cache Integration.srt
+[Worker 5] Processing (238/348): 1. Logs.mp3
+[Worker 6] SUCCESS: 1. ServiceImpl - createProduct Method.mp3 -> 1. ServiceImpl - createProduct Method.srt
+[Worker 6] Processing (239/348): 1. getProduct Endpoint.mp3
+[Worker 3] SUCCESS: 1. Create GlobalHandlerException and ProductNotFoundException Classes.mp3 -> 1. Create GlobalHandlerException and ProductNotFoundException Classes.srt
+[Worker 3] Processing (240/348): 1. updateProduct Endpoint.mp3
+
+[PROGRESS] 230/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m24s
+
+[Worker 2] SUCCESS: 1. Things to Check If You Encounter an Error When Running the Project.mp3 -> 1. Things to Check If You Encounter an Error When Running the Project.srt
+[Worker 2] Processing (241/348): 1. getAllProducts Endpoint.mp3
+
+[PROGRESS] 231/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m26s
+
+[Worker 4] SUCCESS: 2. Understanding JSON, HTTP Methods and Postman Client.mp3 -> 2. Understanding JSON, HTTP Methods and Postman Client.srt
+[Worker 4] Processing (242/348): 1. deleteProduct Endpoint.mp3
+[Worker 9] SUCCESS: 1. Product Controller and createProduct method.mp3 -> 1. Product Controller and createProduct method.srt
+[Worker 9] Processing (243/348): 1. Adding Endpoints to Postman and Testing.mp3
+
+[PROGRESS] 233/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m28s
+
+[Worker 5] SUCCESS: 1. Logs.mp3 -> 1. Logs.srt
+[Worker 5] Processing (244/348): 1. What is Eureka Server.mp3
+
+[PROGRESS] 234/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m30s
+
+
+[PROGRESS] 234/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m32s
+
+[Worker 8] SUCCESS: 5. Spring Boot Starters, Parents and Dev Tools.mp3 -> 5. Spring Boot Starters, Parents and Dev Tools.srt
+[Worker 8] Processing (245/348): 2. What is Zuul Edge Server.mp3
+[Worker 10] SUCCESS: 1. Monolitich and Micro Service Architecture.mp3 -> 1. Monolitich and Micro Service Architecture.srt
+[Worker 10] Processing (246/348): 1. Eureka Server Project.mp3
+
+[PROGRESS] 236/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m34s
+
+[Worker 5] SUCCESS: 1. What is Eureka Server.mp3 -> 1. What is Eureka Server.srt
+[Worker 5] Processing (247/348): 1. Zuul Edge Server Project.mp3
+
+[PROGRESS] 237/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m36s
+
+
+[PROGRESS] 237/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m38s
+
+[Worker 1] SUCCESS: 2 -Build a User Service (MySQL + JPA).mp3 -> 2 -Build a User Service (MySQL + JPA).srt
+[Worker 1] Processing (248/348): 1. Adding the Required Configurations to the Product Service Project.mp3
+
+[PROGRESS] 238/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m40s
+
+[Worker 3] SUCCESS: 1. updateProduct Endpoint.mp3 -> 1. updateProduct Endpoint.srt
+[Worker 3] Processing (249/348): 1. Creating a New Project Microservice Architecture Project Structure.mp3
+[Worker 8] SUCCESS: 2. What is Zuul Edge Server.mp3 -> 2. What is Zuul Edge Server.srt
+[Worker 8] Processing (250/348): 1. Adding Product Service Configurations to Zuul Edge Server Project.mp3
+
+[PROGRESS] 240/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m42s
+
+[Worker 9] SUCCESS: 1. Adding Endpoints to Postman and Testing.mp3 -> 1. Adding Endpoints to Postman and Testing.srt
+[Worker 9] Processing (251/348): 1. Docker.mp3
+
+[PROGRESS] 241/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m44s
+
+[Worker 10] SUCCESS: 1. Eureka Server Project.mp3 -> 1. Eureka Server Project.srt
+[Worker 10] Processing (252/348): 1. Configuring Docker for Projects and Running Them on Docker.mp3
+[Worker 6] SUCCESS: 1. getProduct Endpoint.mp3 -> 1. getProduct Endpoint.srt
+[Worker 6] Processing (253/348): 1. What is Config Server.mp3
+
+[PROGRESS] 243/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m46s
+
+[Worker 8] SUCCESS: 1. Adding Product Service Configurations to Zuul Edge Server Project.mp3 -> 1. Adding Product Service Configurations to Zuul Edge Server Project.srt
+[Worker 8] Processing (254/348): 2. Create the Project Config Files.mp3
+[Worker 1] SUCCESS: 1. Adding the Required Configurations to the Product Service Project.mp3 -> 1. Adding the Required Configurations to the Product Service Project.srt
+[Worker 1] Processing (255/348): 3. Develop the Config Server Project.mp3
+[Worker 4] SUCCESS: 1. deleteProduct Endpoint.mp3 -> 1. deleteProduct Endpoint.srt
+[Worker 4] Processing (256/348): 4. Accessing the Configurations of the Eureka Server Project via Config Server.mp3
+
+[PROGRESS] 246/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m48s
+
+[Worker 3] SUCCESS: 1. Creating a New Project Microservice Architecture Project Structure.mp3 -> 1. Creating a New Project Microservice Architecture Project Structure.srt
+[Worker 3] Processing (257/348): 1. What is Redis Preparation of the Redis.yml File and Running it on Docker..mp3
+
+[PROGRESS] 247/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m50s
+
+[Worker 2] SUCCESS: 1. getAllProducts Endpoint.mp3 -> 1. getAllProducts Endpoint.srt
+[Worker 2] Processing (258/348): 1. What is Feign Client.mp3
+
+[PROGRESS] 248/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m52s
+
+[Worker 5] SUCCESS: 1. Zuul Edge Server Project.mp3 -> 1. Zuul Edge Server Project.srt
+[Worker 5] Processing (259/348): 1. Registering the Product Cache Service Project with Eureka Server.mp3
+[Worker 6] SUCCESS: 1. What is Config Server.mp3 -> 1. What is Config Server.srt
+[Worker 6] Processing (260/348): 2. Adding Feign Client Dependency to the Product Service Project.mp3
+
+[PROGRESS] 250/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m54s
+
+[Worker 9] SUCCESS: 1. Docker.mp3 -> 1. Docker.srt
+[Worker 9] Processing (261/348): 3. Adding Feign Client to the Product Cache Service Project.mp3
+
+[PROGRESS] 251/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m56s
+
+[Worker 1] SUCCESS: 3. Develop the Config Server Project.mp3 -> 3. Develop the Config Server Project.srt
+[Worker 1] Processing (262/348): 4. Integration of Redis into the Product Cache Service Project.mp3
+[Worker 4] SUCCESS: 4. Accessing the Configurations of the Eureka Server Project via Config Server.mp3 -> 4. Accessing the Configurations of the Eureka Server Project via Config Server.srt
+[Worker 4] Processing (263/348): 5. Adding Service and Impl Classes to the Product Cache Service Project.mp3
+[Worker 6] SUCCESS: 2. Adding Feign Client Dependency to the Product Service Project.mp3 -> 2. Adding Feign Client Dependency to the Product Service Project.srt
+[Worker 6] Processing (264/348): 6. Adding Controller to the Product Cache Service Project, Swagger, and Testing.mp3
+
+[PROGRESS] 254/348 processed | Success: 0 | Failed: 0 | Elapsed: 4m58s
+
+[Worker 2] SUCCESS: 1. What is Feign Client.mp3 -> 1. What is Feign Client.srt
+[Worker 2] Processing (265/348): 7. Running the Product Cache Service Project on Docker.mp3
+[Worker 8] SUCCESS: 2. Create the Project Config Files.mp3 -> 2. Create the Project Config Files.srt
+[Worker 8] Processing (266/348): 8. Adding Product Cache Service to Zuul Edge Server.mp3
+
+[PROGRESS] 256/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m0s
+
+
+[PROGRESS] 256/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m2s
+
+
+[PROGRESS] 256/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m4s
+
+[Worker 3] SUCCESS: 1. What is Redis Preparation of the Redis.yml File and Running it on Docker..mp3 -> 1. What is Redis Preparation of the Redis.yml File and Running it on Docker..srt
+[Worker 3] Processing (267/348): 1. Product Service Project Upgrade.mp3
+[Worker 5] SUCCESS: 1. Registering the Product Cache Service Project with Eureka Server.mp3 -> 1. Registering the Product Cache Service Project with Eureka Server.srt
+[Worker 5] Processing (268/348): 2. Eureka Server Project Upgrade.mp3
+
+[PROGRESS] 258/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m6s
+
+[Worker 2] SUCCESS: 7. Running the Product Cache Service Project on Docker.mp3 -> 7. Running the Product Cache Service Project on Docker.srt
+[Worker 2] Processing (269/348): 3. Zuul Edge Server Project Upgrade.mp3
+[Worker 8] SUCCESS: 8. Adding Product Cache Service to Zuul Edge Server.mp3 -> 8. Adding Product Cache Service to Zuul Edge Server.srt
+[Worker 8] Processing (270/348): 4. Config Server Project Upgrade.mp3
+
+[PROGRESS] 260/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m8s
+
+[Worker 10] SUCCESS: 1. Configuring Docker for Projects and Running Them on Docker.mp3 -> 1. Configuring Docker for Projects and Running Them on Docker.srt
+[Worker 10] Processing (271/348): 5. Product Cache Service Project Upgrade.mp3
+
+[PROGRESS] 261/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m10s
+
+[Worker 1] SUCCESS: 4. Integration of Redis into the Product Cache Service Project.mp3 -> 4. Integration of Redis into the Product Cache Service Project.srt
+[Worker 1] Processing (272/348): 1. What is Lombok Dependency.mp3
+[Worker 7] ERROR: Failed to transcribe 1. Internal Api Response.mp3: API error (status 502): error code: 500
+[Worker 7] Processing (273/348): 1. What is Swagger Adding the Swagger Configuration..mp3
+
+[PROGRESS] 263/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m12s
+
+[Worker 5] SUCCESS: 2. Eureka Server Project Upgrade.mp3 -> 2. Eureka Server Project Upgrade.srt
+[Worker 5] Processing (274/348): 1. Setting Up the Language Infrastructure and the Resource Bundle Structure.mp3
+
+[PROGRESS] 264/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m14s
+
+[Worker 4] SUCCESS: 5. Adding Service and Impl Classes to the Product Cache Service Project.mp3 -> 5. Adding Service and Impl Classes to the Product Cache Service Project.srt
+[Worker 4] Processing (275/348): 2. Friendly Message and Utils Class Structure.mp3
+
+[PROGRESS] 265/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m16s
+
+[Worker 6] SUCCESS: 6. Adding Controller to the Product Cache Service Project, Swagger, and Testing.mp3 -> 6. Adding Controller to the Product Cache Service Project, Swagger, and Testing.srt
+[Worker 6] Processing (276/348): 1. Application.properties and Application.yaml files.mp3
+
+[PROGRESS] 266/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m18s
+
+[Worker 1] SUCCESS: 1. What is Lombok Dependency.mp3 -> 1. What is Lombok Dependency.srt
+[Worker 1] Processing (277/348): 1. Product Entity Class.mp3
+[Worker 5] SUCCESS: 1. Setting Up the Language Infrastructure and the Resource Bundle Structure.mp3 -> 1. Setting Up the Language Infrastructure and the Resource Bundle Structure.srt
+[Worker 5] Processing (278/348): 1. Product Repository.mp3
+[Worker 3] SUCCESS: 1. Product Service Project Upgrade.mp3 -> 1. Product Service Project Upgrade.srt
+[Worker 3] Processing (279/348): 10 - Types of DI Part 3.mp3
+
+[PROGRESS] 269/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m20s
+
+[Worker 8] SUCCESS: 4. Config Server Project Upgrade.mp3 -> 4. Config Server Project Upgrade.srt
+[Worker 8] Processing (280/348): 11 - Scopes of Spring Beans.mp3
+[Worker 9] SUCCESS: 3. Adding Feign Client to the Product Cache Service Project.mp3 -> 3. Adding Feign Client to the Product Cache Service Project.srt
+[Worker 9] Processing (281/348): 12 - Qualifier and Primary Annotations.mp3
+
+[PROGRESS] 271/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m22s
+
+[Worker 2] SUCCESS: 3. Zuul Edge Server Project Upgrade.mp3 -> 3. Zuul Edge Server Project Upgrade.srt
+[Worker 2] Processing (282/348): 13 - Spring bean lifecycle.mp3
+[Worker 7] SUCCESS: 1. What is Swagger Adding the Swagger Configuration..mp3 -> 1. What is Swagger Adding the Swagger Configuration..srt
+[Worker 7] Processing (283/348): 14 - Lifecycle methods demo.mp3
+
+[PROGRESS] 273/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m24s
+
+[Worker 10] SUCCESS: 5. Product Cache Service Project Upgrade.mp3 -> 5. Product Cache Service Project Upgrade.srt
+[Worker 10] Processing (284/348): 15 - Bean Lazy Initialization.mp3
+
+[PROGRESS] 274/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m26s
+
+[Worker 2] SUCCESS: 13 - Spring bean lifecycle.mp3 -> 13 - Spring bean lifecycle.srt
+[Worker 2] Processing (285/348): 16 - Section Overview.mp3
+
+[PROGRESS] 275/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m28s
+
+[Worker 4] SUCCESS: 2. Friendly Message and Utils Class Structure.mp3 -> 2. Friendly Message and Utils Class Structure.srt
+[Worker 4] Processing (286/348): 2 - Spring Core Overview.mp3
+[Worker 5] SUCCESS: 1. Product Repository.mp3 -> 1. Product Repository.srt
+[Worker 5] Processing (287/348): 3 - IOC vs DI.mp3
+
+[PROGRESS] 277/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m30s
+
+[Worker 1] SUCCESS: 1. Product Entity Class.mp3 -> 1. Product Entity Class.srt
+[Worker 1] Processing (288/348): 4 - Application Context Intro.mp3
+[Worker 3] SUCCESS: 10 - Types of DI Part 3.mp3 -> 10 - Types of DI Part 3.srt
+[Worker 3] Processing (289/348): 5 - ApplicationContext Demo Part 1.mp3
+
+[PROGRESS] 279/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m32s
+
+[Worker 6] SUCCESS: 1. Application.properties and Application.yaml files.mp3 -> 1. Application.properties and Application.yaml files.srt
+[Worker 6] Processing (290/348): 6 - ApplicationContext Demo Part 2.mp3
+[Worker 2] SUCCESS: 16 - Section Overview.mp3 -> 16 - Section Overview.srt
+[Worker 2] Processing (291/348): 7 - Autowired and Component annotations.mp3
+
+[PROGRESS] 281/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m34s
+
+[Worker 9] SUCCESS: 12 - Qualifier and Primary Annotations.mp3 -> 12 - Qualifier and Primary Annotations.srt
+[Worker 9] Processing (292/348): 8 - Types of DI Part 1.mp3
+[Worker 5] SUCCESS: 3 - IOC vs DI.mp3 -> 3 - IOC vs DI.srt
+[Worker 5] Processing (293/348): 9 - Types of DI Part 2.mp3
+[Worker 4] SUCCESS: 2 - Spring Core Overview.mp3 -> 2 - Spring Core Overview.srt
+[Worker 4] Processing (294/348): 17 - Spring REST Overview.mp3
+
+[PROGRESS] 284/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m36s
+
+
+[PROGRESS] 284/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m38s
+
+[Worker 1] SUCCESS: 4 - Application Context Intro.mp3 -> 4 - Application Context Intro.srt
+[Worker 1] Processing (295/348): 18 - Spring Initializr.mp3
+[Worker 7] SUCCESS: 14 - Lifecycle methods demo.mp3 -> 14 - Lifecycle methods demo.srt
+[Worker 7] Processing (296/348): 19 - Spring maven pom intro.mp3
+[Worker 10] SUCCESS: 15 - Bean Lazy Initialization.mp3 -> 15 - Bean Lazy Initialization.srt
+[Worker 10] Processing (297/348): 20 - Download Postman.mp3
+
+[PROGRESS] 287/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m40s
+
+[Worker 4] SUCCESS: 17 - Spring REST Overview.mp3 -> 17 - Spring REST Overview.srt
+[Worker 4] Processing (298/348): 21 - Model Books.mp3
+[Worker 2] SUCCESS: 7 - Autowired and Component annotations.mp3 -> 7 - Autowired and Component annotations.srt
+[Worker 2] Processing (299/348): 22 - REST Controller Part 1.mp3
+[Worker 6] SUCCESS: 6 - ApplicationContext Demo Part 2.mp3 -> 6 - ApplicationContext Demo Part 2.srt
+[Worker 6] Processing (300/348): 23 - REST Controller Part 2.mp3
+
+[PROGRESS] 290/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m42s
+
+[Worker 10] SUCCESS: 20 - Download Postman.mp3 -> 20 - Download Postman.srt
+[Worker 10] Processing (301/348): 24 - GET POST mapping.mp3
+[Worker 8] SUCCESS: 11 - Scopes of Spring Beans.mp3 -> 11 - Scopes of Spring Beans.srt
+[Worker 8] Processing (302/348): 25 - DELETE PUT mapping.mp3
+
+[PROGRESS] 292/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m44s
+
+[Worker 9] SUCCESS: 8 - Types of DI Part 1.mp3 -> 8 - Types of DI Part 1.srt
+[Worker 9] Processing (303/348): 26 - Sidenote mapping json model.mp3
+[Worker 7] SUCCESS: 19 - Spring maven pom intro.mp3 -> 19 - Spring maven pom intro.srt
+[Worker 7] Processing (304/348): 27 - OverviewSpringREST.mp3
+[Worker 3] SUCCESS: 5 - ApplicationContext Demo Part 1.mp3 -> 5 - ApplicationContext Demo Part 1.srt
+[Worker 3] Processing (305/348): 28 - Spring Data JPA Overview.mp3
+
+[PROGRESS] 295/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m46s
+
+[Worker 5] SUCCESS: 9 - Types of DI Part 2.mp3 -> 9 - Types of DI Part 2.srt
+[Worker 5] Processing (306/348): 29 - Save or Update a record.mp3
+[Worker 1] SUCCESS: 18 - Spring Initializr.mp3 -> 18 - Spring Initializr.srt
+[Worker 1] Processing (307/348): 30 - Get by id deleteupdate on records from h2b database.mp3
+
+[PROGRESS] 297/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m48s
+
+[Worker 4] SUCCESS: 21 - Model Books.mp3 -> 21 - Model Books.srt
+[Worker 4] Processing (308/348): 31 - Get all records.mp3
+[Worker 6] SUCCESS: 23 - REST Controller Part 2.mp3 -> 23 - REST Controller Part 2.srt
+[Worker 6] Processing (309/348): 32 - REST Exception Handling Overview.mp3
+
+[PROGRESS] 299/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m50s
+
+[Worker 9] SUCCESS: 26 - Sidenote mapping json model.mp3 -> 26 - Sidenote mapping json model.srt
+[Worker 9] Processing (310/348): 33 - Local Exception Handling.mp3
+[Worker 7] SUCCESS: 27 - OverviewSpringREST.mp3 -> 27 - OverviewSpringREST.srt
+[Worker 7] Processing (311/348): 34 - Global Exception Handling.mp3
+[Worker 3] SUCCESS: 28 - Spring Data JPA Overview.mp3 -> 28 - Spring Data JPA Overview.srt
+[Worker 3] Processing (312/348): 35 - Recap Exception Handling.mp3
+
+[PROGRESS] 302/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m52s
+
+[Worker 6] SUCCESS: 32 - REST Exception Handling Overview.mp3 -> 32 - REST Exception Handling Overview.srt
+[Worker 6] Processing (313/348): 36 - Resilience4j Overview.mp3
+[Worker 2] SUCCESS: 22 - REST Controller Part 1.mp3 -> 22 - REST Controller Part 1.srt
+[Worker 2] Processing (314/348): 37 - Circuit breaker Part 1.mp3
+
+[PROGRESS] 304/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m54s
+
+[Worker 8] SUCCESS: 25 - DELETE PUT mapping.mp3 -> 25 - DELETE PUT mapping.srt
+[Worker 8] Processing (315/348): 38 - Circuit breaker Part 2.mp3
+[Worker 3] SUCCESS: 35 - Recap Exception Handling.mp3 -> 35 - Recap Exception Handling.srt
+[Worker 3] Processing (316/348): 39 - RateLimiter.mp3
+[Worker 6] SUCCESS: 36 - Resilience4j Overview.mp3 -> 36 - Resilience4j Overview.srt
+[Worker 6] Processing (317/348): 40 - Retry.mp3
+[Worker 4] SUCCESS: 31 - Get all records.mp3 -> 31 - Get all records.srt
+[Worker 4] Processing (318/348): 1 -Your Roadmap to Spring Boot Microservices.mp3
+
+[PROGRESS] 308/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m56s
+
+[Worker 10] SUCCESS: 24 - GET POST mapping.mp3 -> 24 - GET POST mapping.srt
+[Worker 10] Processing (319/348): 1 -Building the Project Module Structure.mp3
+[Worker 1] SUCCESS: 30 - Get by id deleteupdate on records from h2b database.mp3 -> 30 - Get by id deleteupdate on records from h2b database.srt
+[Worker 1] Processing (320/348): 2 -Gradle Dependency Management in Multi-Module Projects.mp3
+
+[PROGRESS] 310/348 processed | Success: 0 | Failed: 0 | Elapsed: 5m58s
+
+[Worker 5] SUCCESS: 29 - Save or Update a record.mp3 -> 29 - Save or Update a record.srt
+[Worker 5] Processing (321/348): 3 -Building a Scalable build.gradle for Spring Boot Microservices.mp3
+
+[PROGRESS] 311/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m0s
+
+[Worker 8] SUCCESS: 38 - Circuit breaker Part 2.mp3 -> 38 - Circuit breaker Part 2.srt
+[Worker 8] Processing (322/348): 4 -Adding New Microservices in a Multi-Module Architecture.mp3
+
+[PROGRESS] 312/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m2s
+
+[Worker 7] SUCCESS: 34 - Global Exception Handling.mp3 -> 34 - Global Exception Handling.srt
+[Worker 7] Processing (323/348): 5 -Launching Newly Created Microservice Modules with Spring Boot.mp3
+
+[PROGRESS] 313/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m4s
+
+[Worker 9] SUCCESS: 33 - Local Exception Handling.mp3 -> 33 - Local Exception Handling.srt
+[Worker 9] Processing (324/348): 1 -Building the Authentication Microservice – Part 1.mp3
+
+[PROGRESS] 314/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m6s
+
+
+[PROGRESS] 314/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m8s
+
+
+[PROGRESS] 314/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m10s
+
+[Worker 6] SUCCESS: 40 - Retry.mp3 -> 40 - Retry.srt
+[Worker 6] Processing (325/348): 2 -Building the Authentication Microservice – Part 2.mp3
+
+[PROGRESS] 315/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m12s
+
+
+[PROGRESS] 315/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m14s
+
+[Worker 10] SUCCESS: 1 -Building the Project Module Structure.mp3 -> 1 -Building the Project Module Structure.srt
+[Worker 10] Processing (326/348): 3 -Building the User Microservice with Spring Boot.mp3
+[Worker 2] SUCCESS: 37 - Circuit breaker Part 1.mp3 -> 37 - Circuit breaker Part 1.srt
+[Worker 2] Processing (327/348): 1 -Understanding Feign Client in Spring Boot.mp3
+
+[PROGRESS] 317/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m16s
+
+
+[PROGRESS] 317/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m18s
+
+[Worker 3] SUCCESS: 39 - RateLimiter.mp3 -> 39 - RateLimiter.srt
+[Worker 3] Processing (328/348): 2 -Connecting Auth Microservice to Other Services via Feign Client.mp3
+
+[PROGRESS] 318/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m20s
+
+[Worker 4] SUCCESS: 1 -Your Roadmap to Spring Boot Microservices.mp3 -> 1 -Your Roadmap to Spring Boot Microservices.srt
+[Worker 4] Processing (329/348): 1 -Understanding Config Server in Spring Boot.mp3
+
+[PROGRESS] 319/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m22s
+
+[Worker 5] SUCCESS: 3 -Building a Scalable build.gradle for Spring Boot Microservices.mp3 -> 3 -Building a Scalable build.gradle for Spring Boot Microservices.srt
+[Worker 5] Processing (330/348): 2 -Spring Cloud Config Server Setup with GitHub Integration.mp3
+
+[PROGRESS] 320/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m24s
+
+[Worker 8] SUCCESS: 4 -Adding New Microservices in a Multi-Module Architecture.mp3 -> 4 -Adding New Microservices in a Multi-Module Architecture.srt
+[Worker 8] Processing (331/348): 3 -How to Connect Microservices to Spring Cloud Config Server.mp3
+[Worker 7] SUCCESS: 5 -Launching Newly Created Microservice Modules with Spring Boot.mp3 -> 5 -Launching Newly Created Microservice Modules with Spring Boot.srt
+[Worker 7] Processing (332/348): 1 -What is Redis.mp3
+
+[PROGRESS] 322/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m26s
+
+
+[PROGRESS] 322/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m28s
+
+[Worker 1] SUCCESS: 2 -Gradle Dependency Management in Multi-Module Projects.mp3 -> 2 -Gradle Dependency Management in Multi-Module Projects.srt
+[Worker 1] Processing (333/348): 2 -Installing Redis with Docker – Step-by-Step Setup Guide.mp3
+
+[PROGRESS] 323/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m30s
+
+[Worker 9] SUCCESS: 1 -Building the Authentication Microservice – Part 1.mp3 -> 1 -Building the Authentication Microservice – Part 1.srt
+[Worker 9] Processing (334/348): 3 -Integrating Redis with Spring Cache in the User Microservice.mp3
+
+[PROGRESS] 324/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m32s
+
+
+[PROGRESS] 324/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m34s
+
+
+[PROGRESS] 324/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m36s
+
+[Worker 8] SUCCESS: 3 -How to Connect Microservices to Spring Cloud Config Server.mp3 -> 3 -How to Connect Microservices to Spring Cloud Config Server.srt
+[Worker 8] Processing (335/348): 1 -Building Microservice Modules in a Multi-Module Spring Boot Project.mp3
+
+[PROGRESS] 325/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m38s
+
+[Worker 4] SUCCESS: 1 -Understanding Config Server in Spring Boot.mp3 -> 1 -Understanding Config Server in Spring Boot.srt
+[Worker 4] Processing (336/348): 2 -Creating a Docker Image Using a Dockerfile – Step-by-Step Guide.mp3
+
+[PROGRESS] 326/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m40s
+
+[Worker 7] SUCCESS: 1 -What is Redis.mp3 -> 1 -What is Redis.srt
+[Worker 7] Processing (337/348): 3 -Publishing Docker Images to Docker Hub – Complete Deployment Guide.mp3
+
+[PROGRESS] 327/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m42s
+
+[Worker 1] SUCCESS: 2 -Installing Redis with Docker – Step-by-Step Setup Guide.mp3 -> 2 -Installing Redis with Docker – Step-by-Step Setup Guide.srt
+[Worker 1] Processing (338/348): 1 -Creating a Google Cloud Account – Step-by-Step Setup Guide.mp3
+
+[PROGRESS] 328/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m44s
+
+
+[PROGRESS] 328/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m46s
+
+[Worker 3] SUCCESS: 2 -Connecting Auth Microservice to Other Services via Feign Client.mp3 -> 2 -Connecting Auth Microservice to Other Services via Feign Client.srt
+[Worker 3] Processing (339/348): 2 -Creating a Kubernetes Cluster – Step-by-Step Guide for Beginners.mp3
+
+[PROGRESS] 329/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m48s
+
+[Worker 2] SUCCESS: 1 -Understanding Feign Client in Spring Boot.mp3 -> 1 -Understanding Feign Client in Spring Boot.srt
+[Worker 2] Processing (340/348): 3 -Understanding and Connecting to a Kubernetes Cluster.mp3
+
+[PROGRESS] 330/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m50s
+
+
+[PROGRESS] 330/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m52s
+
+[Worker 6] SUCCESS: 2 -Building the Authentication Microservice – Part 2.mp3 -> 2 -Building the Authentication Microservice – Part 2.srt
+[Worker 6] Processing (341/348): 4 -Deploying Your Project to a Kubernetes Cluster.mp3
+[Worker 9] SUCCESS: 3 -Integrating Redis with Spring Cache in the User Microservice.mp3 -> 3 -Integrating Redis with Spring Cache in the User Microservice.srt
+[Worker 9] Processing (342/348): 1 -What Is Apache Kafka Architecture  Understanding Kafka Fundamentals.mp3
+
+[PROGRESS] 332/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m54s
+
+
+[PROGRESS] 332/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m56s
+
+[Worker 5] SUCCESS: 2 -Spring Cloud Config Server Setup with GitHub Integration.mp3 -> 2 -Spring Cloud Config Server Setup with GitHub Integration.srt
+[Worker 5] Processing (343/348): 2 -Apache Kafka Setup with Docker (Zookeeper & KRaft)  Single & Multi-Node Config.mp3
+[Worker 1] SUCCESS: 1 -Creating a Google Cloud Account – Step-by-Step Setup Guide.mp3 -> 1 -Creating a Google Cloud Account – Step-by-Step Setup Guide.srt
+[Worker 1] Processing (344/348): 3 -Apache Kafka Producer & Consumer Explained  Managing Data Streams in Kafka.mp3
+
+[PROGRESS] 334/348 processed | Success: 0 | Failed: 0 | Elapsed: 6m58s
+
+[Worker 7] SUCCESS: 3 -Publishing Docker Images to Docker Hub – Complete Deployment Guide.mp3 -> 3 -Publishing Docker Images to Docker Hub – Complete Deployment Guide.srt
+[Worker 7] Processing (345/348): 007 Say Hello to your new AI Coding Companion.mp3
+
+[PROGRESS] 335/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m0s
+
+
+[PROGRESS] 335/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m2s
+
+[Worker 8] SUCCESS: 1 -Building Microservice Modules in a Multi-Module Spring Boot Project.mp3 -> 1 -Building Microservice Modules in a Multi-Module Spring Boot Project.srt
+[Worker 8] Processing (346/348): 027 Optimizing Docker Compose file.mp3
+
+[PROGRESS] 336/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m4s
+
+
+[PROGRESS] 336/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m6s
+
+[Worker 3] SUCCESS: 2 -Creating a Kubernetes Cluster – Step-by-Step Guide for Beginners.mp3 -> 2 -Creating a Kubernetes Cluster – Step-by-Step Guide for Beginners.srt
+[Worker 3] Processing (347/348): 012 Design patterns around API Gateway.mp3
+[Worker 4] SUCCESS: 2 -Creating a Docker Image Using a Dockerfile – Step-by-Step Guide.mp3 -> 2 -Creating a Docker Image Using a Dockerfile – Step-by-Step Guide.srt
+[Worker 4] Processing (348/348): 002 Optimizing Microservices Development with Spring Boot BOM - Part 2.mp3
+
+[PROGRESS] 338/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m8s
+
+
+[PROGRESS] 338/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m10s
+
+
+[PROGRESS] 338/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m12s
+
+[Worker 10] SUCCESS: 3 -Building the User Microservice with Spring Boot.mp3 -> 3 -Building the User Microservice with Spring Boot.srt
+[Worker 2] SUCCESS: 3 -Understanding and Connecting to a Kubernetes Cluster.mp3 -> 3 -Understanding and Connecting to a Kubernetes Cluster.srt
+
+[PROGRESS] 340/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m14s
+
+
+[PROGRESS] 340/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m16s
+
+[Worker 9] SUCCESS: 1 -What Is Apache Kafka Architecture  Understanding Kafka Fundamentals.mp3 -> 1 -What Is Apache Kafka Architecture  Understanding Kafka Fundamentals.srt
+
+[PROGRESS] 341/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m18s
+
+
+[PROGRESS] 341/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m20s
+
+
+[PROGRESS] 341/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m22s
+
+
+[PROGRESS] 341/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m24s
+
+[Worker 3] SUCCESS: 012 Design patterns around API Gateway.mp3 -> 012 Design patterns around API Gateway.srt
+
+[PROGRESS] 342/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m26s
+
+[Worker 4] SUCCESS: 002 Optimizing Microservices Development with Spring Boot BOM - Part 2.mp3 -> 002 Optimizing Microservices Development with Spring Boot BOM - Part 2.srt
+
+[PROGRESS] 343/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m28s
+
+[Worker 8] SUCCESS: 027 Optimizing Docker Compose file.mp3 -> 027 Optimizing Docker Compose file.srt
+[Worker 7] SUCCESS: 007 Say Hello to your new AI Coding Companion.mp3 -> 007 Say Hello to your new AI Coding Companion.srt
+
+[PROGRESS] 345/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m30s
+
+[Worker 1] SUCCESS: 3 -Apache Kafka Producer & Consumer Explained  Managing Data Streams in Kafka.mp3 -> 3 -Apache Kafka Producer & Consumer Explained  Managing Data Streams in Kafka.srt
+[Worker 5] SUCCESS: 2 -Apache Kafka Setup with Docker (Zookeeper & KRaft)  Single & Multi-Node Config.mp3 -> 2 -Apache Kafka Setup with Docker (Zookeeper & KRaft)  Single & Multi-Node Config.srt
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m32s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m34s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m36s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m38s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m40s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m42s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m44s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m46s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m48s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m50s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m52s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m54s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m56s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 7m58s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 8m0s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 8m2s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 8m4s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 8m6s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 8m8s
+
+
+[PROGRESS] 347/348 processed | Success: 0 | Failed: 0 | Elapsed: 8m10s
+
+[Worker 6] SUCCESS: 4 -Deploying Your Project to a Kubernetes Cluster.mp3 -> 4 -Deploying Your Project to a Kubernetes Cluster.srt
+
+==========================
+Processing Complete
+==========================
+Total files found:     348
+Skipped (SRT exists):  0
+Processed:             348
+  - Successful:        347
+  - Failed:            1
+Total time:            8m11s
+Average per file:      1s
+==========================
+ Tony Baloney  Aaliyah  C:\..\LemonFoxWhisperTranscriber   
