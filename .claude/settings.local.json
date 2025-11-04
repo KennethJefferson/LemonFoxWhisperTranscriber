@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.lemonfox.ai)"
+      "WebFetch(domain:www.lemonfox.ai)",
+      "Bash(go build:*)"
     ],
     "deny": [],
     "ask": []

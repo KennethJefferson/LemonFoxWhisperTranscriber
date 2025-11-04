@@ -93,14 +93,61 @@ Error handling includes both HTTP status codes and JSON error parsing fallback.
 
 - Default workers: 1
 - Maximum workers: 25 (hardcoded limit in `maxWorkers`)
+- Maximum file size: 100MB (API limit - `maxFileSizeBytes`)
 - API timeout: 10 minutes per file
 - Progress update interval: 2 seconds
 - Response format: SRT only (hardcoded)
 - Language: English only (hardcoded)
 
+## Large File Handling (100MB+)
+
+The application automatically handles files exceeding the 100MB API limit through an intelligent splitting and merging workflow:
+
+### Automatic Detection and Splitting
+
+When a worker processes a file >100MB:
+1. **File Size Check**: `getFileSize()` detects files exceeding `maxFileSizeBytes` (100MB)
+2. **Audio Splitting**: `splitAudioFile()` uses ffmpeg to split the audio exactly in half by duration
+   - Chunk 1: `[basename]-01.mp3` (first half)
+   - Chunk 2: `[basename]-02.mp3` (second half)
+   - Uses `ffmpeg -c copy` for fast stream copying (no re-encoding)
+3. **Size Validation**: Verifies chunks are <100MB (files >200MB will fail with clear error)
+
+### Transcription and Merging
+
+4. **Sequential Transcription**: Both chunks are transcribed using the LemonFox API
+5. **SRT Timestamp Adjustment**:
+   - `parseSRTTimestamp()` and `formatSRTTimestamp()` handle SRT time format (`HH:MM:SS,mmm`)
+   - `adjustSRTTimestamps()` adds the first chunk's duration offset to all timestamps in chunk 2
+   - Example: If chunk 1 is 330.5 seconds, chunk 2's timestamps are shifted by +00:05:30,500
+6. **Index Renumbering**: `mergeSRTs()` renumbers subtitle indices to be sequential across both chunks
+7. **Cleanup**: Temporary chunk files (`*-01.mp3`, `*-02.mp3`) are automatically deleted after successful merge
+
+### Key Functions
+
+- `processLargeFile()` (main.go:567): Orchestrates the entire split-transcribe-merge workflow
+- `getAudioDuration()` (main.go:412): Uses ffprobe to detect audio duration in seconds
+- `splitAudioFile()` (main.go:430): Creates two equal-duration chunks using ffmpeg
+- `mergeSRTs()` (main.go:525): Combines SRT files with timestamp and index adjustment
+
+### Dependencies
+
+- **ffmpeg**: Required for audio splitting (`ffmpeg` command)
+- **ffprobe**: Required for duration detection (`ffprobe` command)
+
+Both must be available in system PATH. If not found, the application will fail with a clear error message: "ffprobe failed (is ffmpeg installed?)".
+
+### Error Handling
+
+- **Chunk transcription failure**: If either chunk fails, the entire file is marked as failed (no partial results)
+- **File too large (>200MB)**: Clear error message indicating chunks would exceed 100MB
+- **Temporary file cleanup**: Chunks are deleted via `defer` statements, ensuring cleanup even on failure
+
 ## Output Format
 
 The application generates SRT files with the same base filename as the input MP3 file (e.g., `episode.mp3` → `episode.srt`). SRT files are saved with `0644` permissions.
+
+For large files that were split and merged, the output SRT file is indistinguishable from a single-pass transcription, with properly sequential subtitle indices and continuous timestamps.
 
 ## Error Handling Philosophy
 
